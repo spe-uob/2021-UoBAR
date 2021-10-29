@@ -29,9 +29,12 @@ Bristol IT
 
 ## User Stories
 
-As a tourist i want to be able to understand the public art, so I can experience more of Bristol
-As a student i want to be able to view and navigate royal fort gardens/Goldney hall so that I get more familiar with the area
-As IT i want to be able to maintain the system so that it functions properly for the users
-As a developer I want to be able to make an application so that i can get credits for the course
+As a tourist i want to be able to understand the public art, so I can experience more of Bristol.
+
+As a student i want to be able to view and navigate royal fort gardens/Goldney hall so that I get more familiar with the area.
+
+As IT i want to be able to maintain the system so that it functions properly for the users.
+
+As a developer I want to be able to make an application so that i can get credits for the course.
 
 
