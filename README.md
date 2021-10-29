@@ -15,16 +15,21 @@ The app will be progressive and maintainable, preparing the client to expand the
 ## Stakeholders
 
 Developers
-  As developer we impact the system by creating the project and help make it maintainable as well as usable.
+
+	As developer we impact the system by creating the project and help make it maintainable as well as usable.
+
 
 Students
-  They are an indirect stakeholder as they are a target focus of the app, allowing newer students to get used to the area as well as giving more insight into the history and 
-  culture of the area through public art.
+
+	They are an indirect stakeholder as they are a target focus of the app, allowing newer students to get used to the area as well as giving more insight into the history and culture of the area through public art.
   
 Tourists
-  Much like the students, they are an indirect stakeholder whose interest is in the final product as they would use the application in order to find out more about the public art   as well as helping them with the navigation of the area.
+
+	Much like the students, they are an indirect stakeholder whose interest is in the final product as they would use the application in order to find out more about the public art as well as helping them with the navigation of the area.
+  
   
 Bristol IT
+	
 	After we are done with the project, the maintenance of the servers would be handed over to the IT services and therefore they have a vested interest in the project.
 
 ## User Stories
