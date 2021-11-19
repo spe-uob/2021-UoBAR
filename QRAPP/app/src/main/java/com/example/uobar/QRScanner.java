@@ -1,18 +1,17 @@
 package com.example.uobar;
 
-import androidx.annotation.NonNull;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.Manifest;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.budiyev.android.codescanner.CodeScanner;
 import com.budiyev.android.codescanner.CodeScannerView;
-import com.budiyev.android.codescanner.DecodeCallback;
-import com.google.zxing.Result;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionDeniedResponse;
@@ -20,13 +19,12 @@ import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
 
-import java.util.Scanner;
-
 public class QRScanner extends AppCompatActivity {
 
     CodeScanner mScanner;
     CodeScannerView scanner;
     TextView scanResult;
+    Button scannerBackBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,15 +36,14 @@ public class QRScanner extends AppCompatActivity {
         scanResult = findViewById(R.id.scanResult);
 
         //decodes the qr code
-        mScanner.setDecodeCallback(new DecodeCallback() {
-            @Override
-            public void onDecoded(@NonNull Result result) {
-                //when the qr code is decoded, it is stored in the result variable
-                //uses threading to make it more efficient
-                runOnUiThread(() -> scanResult.setText(result.getText()));
-            }
+        mScanner.setDecodeCallback(result -> {
+            //when the qr code is decoded, it is stored in the result variable
+            //uses threading to make it more efficient
+            runOnUiThread(() -> scanResult.setText(result.getText()));
         });
         scanner.setOnClickListener(v -> mScanner.startPreview());
+        scannerBackBtn = findViewById(R.id.scannerBackBtn);
+        scannerBackBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), MainActivity.class)));
     }
 
     @Override

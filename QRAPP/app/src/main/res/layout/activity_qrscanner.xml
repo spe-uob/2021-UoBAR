@@ -24,7 +24,9 @@
         app:frameThickness="2dp"
         app:maskColor="#77629155"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="356dp" />
+        tools:layout_editor_absoluteY="356dp" >
+
+    </com.budiyev.android.codescanner.CodeScannerView>
 
     <TextView
         android:id="@+id/scanResult"
@@ -39,5 +41,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.887" />
+
+    <Button
+        android:id="@+id/scannerBackBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="@+id/scanner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
