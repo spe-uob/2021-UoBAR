@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/himan/AndroidStudioProjects/2021-UoBAR/QRAPP/app/src/main/res/layout/activity_main.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/himan/AndroidStudioProjects/2021-UoBAR/QRAPP/app/src/main/res/layout/activity_qrgenerator.xml" value="0.27717391304347827" />
         <entry key="..\:/Users/himan/AndroidStudioProjects/2021-UoBAR/QRAPP/app/src/main/res/layout/activity_qrscanner.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/himan/AndroidStudioProjects/2021-UoBAR/QRAPP/app/src/main/res/layout/fragment_maps.xml" value="0.27717391304347827" />
         <entry key="..\:/Users/himan/AndroidStudioProjects/UOBAR/app/src/main/res/layout/activity_main.xml" value="0.27717391304347827" />
         <entry key="..\:/Users/himan/AndroidStudioProjects/UOBAR/app/src/main/res/layout/activity_qrscanner.xml" value="0.27717391304347827" />
         <entry key="..\:/Users/himan/AndroidStudioProjects/UOBAR/app/src/main/res/layout/activity_sonthing.xml" value="0.27717391304347827" />

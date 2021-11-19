@@ -21,11 +21,10 @@ import com.karumi.dexter.listener.single.PermissionListener;
 
 public class QRScanner extends AppCompatActivity {
 
-    CodeScanner mScanner;
-    CodeScannerView scanner;
-    TextView scanResult;
-    Button scannerBackBtn;
-    Button rescanBtn;
+    private CodeScanner mScanner;
+    private CodeScannerView scanner;
+    private TextView scanResult;
+    private Button scannerBackBtn, rescanBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,11 +50,8 @@ public class QRScanner extends AppCompatActivity {
     @Override
     public void onResume() {
         super.onResume();
-        cameraRequest();
-    }
 
-    //sends the user permission to use the camera
-    private void cameraRequest() {
+        //permission to use camera
         Dexter.withActivity(this).withPermission(Manifest.permission.CAMERA).withListener(new PermissionListener() {
             //user accepts the camera perms
             @Override

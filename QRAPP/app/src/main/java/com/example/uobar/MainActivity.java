@@ -10,15 +10,17 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button QRScanBtn;
+    private Button QRScanBtn, QRGenerateBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        QRScanBtn = (Button) findViewById(R.id.QRScanBtn);
+        QRScanBtn = findViewById(R.id.QRScanBtn);
         QRScanBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), QRScanner.class)));
+        QRGenerateBtn = findViewById(R.id.QRGenerateBtn);
+        QRGenerateBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), QRGenerator.class)));
     }
 
 
