@@ -25,6 +25,7 @@ public class QRScanner extends AppCompatActivity {
     CodeScannerView scanner;
     TextView scanResult;
     Button scannerBackBtn;
+    Button rescanBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,8 @@ public class QRScanner extends AppCompatActivity {
         scanner = findViewById(R.id.scanner);
         mScanner = new CodeScanner(this, scanner);
         scanResult = findViewById(R.id.scanResult);
+        scannerBackBtn = findViewById(R.id.scannerBackBtn);
+        rescanBtn = findViewById(R.id.rescanBtn);
 
         //decodes the qr code
         mScanner.setDecodeCallback(result -> {
@@ -41,8 +44,7 @@ public class QRScanner extends AppCompatActivity {
             //uses threading to make it more efficient
             runOnUiThread(() -> scanResult.setText(result.getText()));
         });
-        scanner.setOnClickListener(v -> mScanner.startPreview());
-        scannerBackBtn = findViewById(R.id.scannerBackBtn);
+        rescanBtn.setOnClickListener(v -> mScanner.startPreview());
         scannerBackBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), MainActivity.class)));
     }
 
