@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UOBAR</string>
+    <string name="scan_results_are_here">Scan results are here</string>
+    <string name="qr_scanner">QR_scanner</string>
+    <string name="back">back</string>
+    <string name="rescan">Rescan</string>
+    <string name="qr_generator">qr_generator</string>
+</resources>
