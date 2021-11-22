@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">UoB-AR</string>
+    <string name="enableGPS">Please enable GPS for a better experience</string>
+</resources>
