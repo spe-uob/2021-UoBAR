@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/pinkBG"
+    android:background="@drawable/pink_bg"
     tools:context=".MainActivity">
 
     <TextView
@@ -25,8 +25,8 @@
 
         <TextView
             android:id="@+id/setDARK"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/black_ops_one"
@@ -35,9 +35,12 @@
 
         <Switch
             android:id="@+id/chipDARK"
-            android:layout_width="80dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textOn="ON"
+            android:textOff="OFF"
+            android:switchMinWidth="20dp"
+            android:layout_marginRight="80dp"
             android:layout_marginTop="5dp"/>
 
 
@@ -50,8 +53,8 @@
 
         <TextView
             android:id="@+id/setGPS"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/black_ops_one"
@@ -60,9 +63,12 @@
 
         <Switch
             android:id="@+id/chipGPS"
-            android:layout_width="80dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="158dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textOn="ON"
+            android:textOff="OFF"
+            android:switchMinWidth="20dp"
+            android:layout_marginRight="80dp"
             android:layout_marginTop="5dp"/>
 
     </LinearLayout>
