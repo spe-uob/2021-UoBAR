@@ -6,22 +6,17 @@ import androidx.core.app.ActivityCompat;
 import android.Manifest;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
-import android.provider.MediaStore;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 
 import androidmads.library.qrgenearator.QRGContents;
 import androidmads.library.qrgenearator.QRGEncoder;
@@ -63,9 +58,8 @@ public class QRGenerator extends AppCompatActivity {
         saveQRBtn.setOnClickListener(v -> {
 
             try {
-                File savDir = new File(Environment.getExternalStorageDirectory().toString() + File.separator + "generatedQR" + File.separator);
-                savDir.mkdirs();
-                File file = new File(savDir, QRInputText.getText().toString()+".jpg");
+                Toast.makeText(getApplicationContext(),"QR code should be in the pictures folder", Toast.LENGTH_SHORT).show();
+                File file = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "Pictures", QRInputText.getText().toString()+".jpg");
                 FileOutputStream fOut = new FileOutputStream(file);
                 QRMap.compress(Bitmap.CompressFormat.JPEG, 85, fOut);
                 fOut.flush();
