@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/pink_bg"
-    tools:context=".MainActivity">
+    tools:context=".setting">
 
     <TextView
         android:id="@+id/Setting"
