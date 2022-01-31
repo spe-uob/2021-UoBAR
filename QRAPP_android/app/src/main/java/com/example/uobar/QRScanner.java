@@ -41,7 +41,13 @@ public class QRScanner extends AppCompatActivity {
         mScanner.setDecodeCallback(result -> {
             //when the qr code is decoded, it is stored in the result variable
             //uses threading to make it more efficient
-            runOnUiThread(() -> scanResult.setText(result.getText()));
+          //  runOnUiThread(() -> scanResult.setText(result.getText()));
+             String decodedString = result.getText();
+            if(!decodedString.contains("wiki")){
+                decodedString= " ";
+            }
+            String finalDecodedString = decodedString;
+            runOnUiThread(() -> scanResult.setText(finalDecodedString));
         });
         rescanBtn.setOnClickListener(v -> mScanner.startPreview());
         scannerBackBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), MainActivity.class)));

@@ -1,0 +1,9 @@
+com/example/uobar/QRScanner.java
+ com.example.uobar.QRScanner
+ com.example.uobar.QRScanner$1
+com/example/uobar/QRGenerator.java
+ com.example.uobar.QRGenerator
+com/example/uobar/BuildConfig.java
+ com.example.uobar.BuildConfig
+com/example/uobar/MainActivity.java
+ com.example.uobar.MainActivity
