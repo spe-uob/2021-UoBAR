@@ -5,37 +5,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".enableGPS">
+    android:background="@drawable/option_bg"
+    tools:context=".setting">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="250dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:text="Please\nenable GPS\nfor a better\nexperience"
+        android:text="Please\nchoose your\nlocation"
         android:textSize="60sp"
         android:gravity="center"
         android:textColor="@color/black"
         ></TextView>
 
-    <Button
+    <ImageButton
+        android:id="@+id/Goldney"
         android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:text="Enable"
+        android:layout_height="150dp"
+        android:fontFamily="@font/black_ops_one"
         android:layout_gravity="center"
-        android:textSize="30sp"
-        android:backgroundTint="@color/black"
-        ></Button>
+        android:textColor="@color/white"
+        android:background="@drawable/goldney"/>
 
-    <Button
-        android:id="@+id/enContinue"
+    <ImageButton
+        android:id="@+id/Royal"
         android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:text="Continue"
+        android:layout_height="150dp"
+        android:fontFamily="@font/black_ops_one"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:textSize="30sp"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/black"
-        ></Button>
+        android:textColor="@color/white"
+        android:background="@drawable/royalfort" />
 
 </LinearLayout>
