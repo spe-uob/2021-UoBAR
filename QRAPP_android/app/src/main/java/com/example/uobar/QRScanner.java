@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.Manifest;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -46,7 +47,13 @@ public class QRScanner extends AppCompatActivity {
                 decodedString= " ";
             }
             String finalDecodedString = decodedString;
-            runOnUiThread(() -> scanResult.setText(finalDecodedString));
+            Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(finalDecodedString));
+            try{
+                if(decodedString != " ")
+                    runOnUiThread(()->startActivity(intent));
+            } catch (Exception e) {
+                System.out.println(e);
+            }
         });
         scannerBackBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), MainActivity.class)));
     }
