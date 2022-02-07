@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.Manifest;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -12,6 +13,7 @@ import android.widget.Toast;
 
 import com.budiyev.android.codescanner.CodeScanner;
 import com.budiyev.android.codescanner.CodeScannerView;
+import com.budiyev.android.codescanner.ScanMode;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionDeniedResponse;
@@ -24,32 +26,35 @@ public class QRScanner extends AppCompatActivity {
     private CodeScanner mScanner;
     private CodeScannerView scanner;
     private TextView scanResult;
-    private Button scannerBackBtn, rescanBtn;
+    private Button scannerBackBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_qrscanner);
-
         scanner = findViewById(R.id.scanner);
         mScanner = new CodeScanner(this, scanner);
         scanResult = findViewById(R.id.scanResult);
         scannerBackBtn = findViewById(R.id.scannerBackBtn);
-        rescanBtn = findViewById(R.id.rescanBtn);
-
+        //set the app to continously scan for QR codes
+        mScanner.setScanMode(ScanMode.CONTINUOUS);
         //decodes the qr code
         mScanner.setDecodeCallback(result -> {
             //when the qr code is decoded, it is stored in the result variable
             //uses threading to make it more efficient
-          //  runOnUiThread(() -> scanResult.setText(result.getText()));
              String decodedString = result.getText();
             if(!decodedString.contains("wiki")){
                 decodedString= " ";
             }
             String finalDecodedString = decodedString;
-            runOnUiThread(() -> scanResult.setText(finalDecodedString));
+            Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(finalDecodedString));
+            try{
+                if(decodedString != " ")
+                    runOnUiThread(()->startActivity(intent));
+            } catch (Exception e) {
+                System.out.println(e);
+            }
         });
-        rescanBtn.setOnClickListener(v -> mScanner.startPreview());
         scannerBackBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), MainActivity.class)));
     }
 
