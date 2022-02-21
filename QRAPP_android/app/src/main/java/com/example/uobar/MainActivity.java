@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button QRScanBtn, QRGenerateBtn;
+    private Button QRScanBtn, QRGenerateBtn,GoldneyInfoBtn,RoyalInfoBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
         QRScanBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), QRScanner.class)));
         QRGenerateBtn = findViewById(R.id.QRGenerateBtn);
         QRGenerateBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), QRGenerator.class)));
+        GoldneyInfoBtn = findViewById(R.id.GoldneyID);
+        GoldneyInfoBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), GoldneyButton.class)));
+        RoyalInfoBtn = findViewById(R.id.RoyalID);
+        RoyalInfoBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), RoyalFortButton.class)));;
     }
 
 

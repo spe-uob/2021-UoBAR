@@ -18,6 +18,12 @@
             android:name=".QRGenerator"
             android:exported="false" />
         <activity
+            android:name=".GoldneyButton"
+            android:exported="false" />
+        <activity
+            android:name=".RoyalFortButton"
+            android:exported="false" />
+        <activity
             android:name=".QRScanner"
             android:exported="false" />
         <activity

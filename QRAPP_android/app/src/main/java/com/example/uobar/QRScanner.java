@@ -26,7 +26,6 @@ public class QRScanner extends AppCompatActivity {
     private CodeScanner mScanner;
     private CodeScannerView scanner;
     private TextView scanResult;
-    private Button scannerBackBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,8 +34,7 @@ public class QRScanner extends AppCompatActivity {
         scanner = findViewById(R.id.scanner);
         mScanner = new CodeScanner(this, scanner);
         scanResult = findViewById(R.id.scanResult);
-        scannerBackBtn = findViewById(R.id.scannerBackBtn);
-        //set the app to continously scan for QR codes
+        //set the app to continuously scan for QR codes
         mScanner.setScanMode(ScanMode.CONTINUOUS);
         //decodes the qr code
         mScanner.setDecodeCallback(result -> {
@@ -55,7 +53,6 @@ public class QRScanner extends AppCompatActivity {
                 System.out.println(e);
             }
         });
-        scannerBackBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), MainActivity.class)));
     }
 
     @Override
@@ -73,7 +70,7 @@ public class QRScanner extends AppCompatActivity {
             @Override
             public void onPermissionDenied(PermissionDeniedResponse response) {
                 Toast.makeText(QRScanner.this,
-                        "We need to use the camera inorder to scan the qr code",
+                        "Camera permission needed in order to scan the QR codes",
                         Toast.LENGTH_SHORT).show();
             }
             //keeps asking for the permission until it is accepted
