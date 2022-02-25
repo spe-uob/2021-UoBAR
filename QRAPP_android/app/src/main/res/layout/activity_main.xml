@@ -14,18 +14,9 @@
         android:layout_width="250dp"
         android:layout_height="80dp"
         android:text="@string/qr_scanner"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="80dp"
         android:layout_gravity="center"
          />
-
-    <Button
-        android:id="@+id/QRGenerateBtn"
-        android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:text="@string/qr_generator"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"
-        />
 
 
     <ImageButton
