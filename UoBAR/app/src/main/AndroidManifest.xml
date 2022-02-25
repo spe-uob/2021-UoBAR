@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UoBAR">
         <activity
+            android:name=".GoldneyIntro"
+            android:exported="false" />
+        <activity
             android:name=".option"
             android:exported="false" />
         <activity

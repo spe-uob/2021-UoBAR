@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">UoB-AR</string>
     <string name="enableGPS">Please enable GPS for a better experience</string>
+
+
+    <string name="goldneyIntro1">In 1694 Thomas Goldney II, son of a successful Quaker grocer, leased a gentleman’s house and garden on Clifton Hill. In the late C17, Clifton was a small village of some 200 inhabitants, separate from the city of Bristol, which was beginning to attract city dwellers in search of cleaner surroundings. \nGoldney purchased the property in 1705 and had the house partly rebuilt and extended between 1722 and 1728. After his death in 1731, the property was inherited by his son Thomas Goldney III who, over the next 22 years, gradually acquired additional parcels of land on which he developed the garden until his death in 1768.</string>
+    <string name="goldneyIntro2">
+        The property was inherited by his brother, Gabriel (d 1786), who appears to have made no significant changes to the garden. It passed to his sister Ann, who died in 1794 (Stembridge, 1998). After her death it was inherited by a sequence of cousins but after the death of another Thomas Goldney in 1856, there was a dispute over inheritance, following which outer parts of the grounds were sold off for residential development before the house and the remnant of the estate were acquired in 1864 by Lewis Fry of the Quaker family of chocolate manufacturers.</string>
 </resources>

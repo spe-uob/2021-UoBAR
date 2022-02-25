@@ -26,7 +26,9 @@
         android:fontFamily="@font/black_ops_one"
         android:layout_gravity="center"
         android:textColor="@color/white"
-        android:background="@drawable/goldney"/>
+        android:background="@drawable/goldney_intro"
+        />
+
 
     <ImageButton
         android:id="@+id/Royal"
@@ -36,6 +38,6 @@
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:textColor="@color/white"
-        android:background="@drawable/royalfort" />
+        android:background="@drawable/royal_intro" />
 
 </LinearLayout>

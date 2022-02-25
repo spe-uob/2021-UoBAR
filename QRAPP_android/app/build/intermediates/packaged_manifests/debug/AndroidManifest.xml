@@ -41,10 +41,19 @@
             android:name="com.example.uobar.QRGenerator"
             android:exported="false" />
         <activity
+            android:name="com.example.uobar.GoldneyButton"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uobar.RoyalFortButton"
+            android:exported="false" />
+        <activity
             android:name="com.example.uobar.QRScanner"
             android:exported="false" />
         <activity
             android:name="com.example.uobar.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uobar.Welcome"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
