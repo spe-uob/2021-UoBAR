@@ -7,9 +7,14 @@
         <entry key="..\:/2021-UoBAR/QRAPP_android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/2021-UoBAR/QRAPP_android/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/2021-UoBAR/QRAPP_android/app/src/main/res/layout/activity_qrgenerator.xml" value="0.176" />
+        <entry key="..\:/UoBAR/2021-UoBAR/QRAPP_android/app/src/main/res/font/black_ops_one.xml" value="0.12864583333333332" />
+        <entry key="..\:/UoBAR/2021-UoBAR/QRAPP_android/app/src/main/res/layout/activity_main.xml" value="0.1925925925925926" />
+        <entry key="..\:/UoBAR/2021-UoBAR/QRAPP_android/app/src/main/res/layout/activity_qrgenerator.xml" value="0.2328125" />
+        <entry key="..\:/UoBAR/2021-UoBAR/QRAPP_android/app/src/main/res/layout/activity_welcome.xml" value="0.2328125" />
+        <entry key="..\:/UoBAR/2021-UoBAR/QRAPP_android/app/src/main/res/layout/garden_info.xml" value="0.1925925925925926" />
       </map>
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK" />
 </project>

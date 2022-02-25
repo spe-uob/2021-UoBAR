@@ -6,11 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button QRScanBtn, QRGenerateBtn,GoldneyInfoBtn,RoyalInfoBtn;
+    private Button QRScanBtn, QRGenerateBtn;
+    private ImageButton GoldneyInfoBtn, RoyalInfoBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
