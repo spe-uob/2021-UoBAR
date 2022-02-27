@@ -63,8 +63,9 @@ public class QRGenerator extends AppCompatActivity {
         saveQRBtn.setOnClickListener(v -> {
 
             try {
-                Toast.makeText(getApplicationContext(),"QR code should be in the pictures folder", Toast.LENGTH_SHORT).show();
-                File file = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "Pictures", QRInputText.getText().toString()+".jpg");
+                File savDir = new File(Environment.getExternalStorageDirectory().toString() + File.separator + "generatedQR" + File.separator);
+                savDir.mkdirs();
+                File file = new File(savDir, QRInputText.getText().toString()+".jpg");
                 FileOutputStream fOut = new FileOutputStream(file);
                 QRMap.compress(Bitmap.CompressFormat.JPEG, 85, fOut);
                 fOut.flush();
