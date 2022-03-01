@@ -41,8 +41,12 @@ public class QRScanner extends AppCompatActivity {
             //when the qr code is decoded, it is stored in the result variable
             //uses threading to make it more efficient
              String decodedString = result.getText();
-            if(!decodedString.contains("wiki")){
+            if(!decodedString.contains("UOBAR")){
                 decodedString= " ";
+            }
+            else{
+                decodedString = decodedString.replaceAll("UOBAR","");
+                decodedString = "https://www.bristol.ac.uk/centenary/" + decodedString;
             }
             String finalDecodedString = decodedString;
             Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(finalDecodedString));
