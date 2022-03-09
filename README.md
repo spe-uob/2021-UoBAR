@@ -40,3 +40,34 @@ As IT i want to be able to maintain the system so that it functions properly for
 As a developer I want to be able to make an application so that i can get credits for the course.
 
 
+## Setup instruction
+- We recommend use Android studio to run this project which support debug and run on the real machine and also provides a device simulator  
+
+- Install Prerequisites  
+  1. JDK  
+  2. Android Studio  
+
+- Set up
+  1. Clone the repository: git clone https://github.com/spe-uob/2021-UoBAR.git  
+	2. Open the Android Studio main screen. Click on “Open existing android studio project”  
+	3. Or go to File > Open... and choose the location where the project is located.  
+	4. Android studio will start build the project and do Gradle syncronization  
+  
+- Run on physical device  
+	1. Use USB cable connect the device to the computer(could use WIFI if supported)  
+	2. On device  
+		1. Open Settings app -> Developer options -> enable USB debugging  
+	3. In the toolbar, select your app from the run configurations drop-down menu  
+	4. select the device that you want to run your app on  
+	5. Click Run  
+
+- Run on the Android Emulator  
+	1. Create an AVD  
+		1. Device Manager ->select a hardware -> Next -> Select System image -> Next -> change AVD properties -> Finish  
+	2. Select the AVD want to run  
+  3. Run  
+
+
+
+
+
