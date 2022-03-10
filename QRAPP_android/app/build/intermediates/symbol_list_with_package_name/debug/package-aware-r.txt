@@ -1913,6 +1913,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable option_bg
+drawable pink_bg
 drawable royal_intro
 drawable royalfort
 drawable test_custom_background
@@ -1928,7 +1929,7 @@ id FUNCTION
 id GoldneyID
 id META
 id NO_DEBUG
-id QRGenerateBtn
+id Next
 id QRGeneratorBtn
 id QRImage
 id QRInputText
@@ -3578,6 +3579,8 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
+transition activity_fade
+transition activity_slide
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

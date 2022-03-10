@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
         QRScanBtn = findViewById(R.id.QRScanBtn);
         QRScanBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), QRScanner.class)));
-        QRGenerateBtn = findViewById(R.id.QRGenerateBtn);
-        QRGenerateBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), QRGenerator.class)));
+        //QRGenerateBtn = findViewById(R.id.QRGenerateBtn);
+        //QRGenerateBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), QRGenerator.class)));
         GoldneyInfoBtn = findViewById(R.id.GoldneyID);
         GoldneyInfoBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), GoldneyButton.class)));
         RoyalInfoBtn = findViewById(R.id.RoyalID);
