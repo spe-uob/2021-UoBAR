@@ -1928,7 +1928,7 @@ int id FUNCTION 0x7f080004
 int id GoldneyID 0x7f080005
 int id META 0x7f080006
 int id NO_DEBUG 0x7f080007
-int id Next 0x7f080008
+int id Next_scan 0x7f0801ee
 int id QRGeneratorBtn 0x7f080009
 int id QRImage 0x7f08000a
 int id QRInputText 0x7f08000b
@@ -2485,6 +2485,7 @@ int layout abc_tooltip 0x7f0b001b
 int layout activity_main 0x7f0b001c
 int layout activity_qrgenerator 0x7f0b001d
 int layout activity_qrscanner 0x7f0b001e
+int layout activity_scan_page 0x7f0b0075
 int layout activity_welcome 0x7f0b001f
 int layout custom_dialog 0x7f0b0020
 int layout design_bottom_navigation_item 0x7f0b0021

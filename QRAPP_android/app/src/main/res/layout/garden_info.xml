@@ -23,7 +23,7 @@
         />
 
     <ImageButton
-        android:id="@+id/Next"
+        android:id="@+id/Next_scan"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_gravity="right"

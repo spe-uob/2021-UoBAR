@@ -1929,7 +1929,7 @@ id FUNCTION
 id GoldneyID
 id META
 id NO_DEBUG
-id Next
+id Next_scan
 id QRGeneratorBtn
 id QRImage
 id QRInputText
@@ -2486,6 +2486,7 @@ layout abc_tooltip
 layout activity_main
 layout activity_qrgenerator
 layout activity_qrscanner
+layout activity_scan_page
 layout activity_welcome
 layout custom_dialog
 layout design_bottom_navigation_item
