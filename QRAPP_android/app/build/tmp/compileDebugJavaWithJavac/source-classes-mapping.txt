@@ -1,16 +1,30 @@
-com/example/uobar/GoldneyButton.java
- com.example.uobar.GoldneyButton
-com/example/uobar/RoyalFortButton.java
- com.example.uobar.RoyalFortButton
-com/example/uobar/BuildConfig.java
- com.example.uobar.BuildConfig
-com/example/uobar/QRScanner.java
- com.example.uobar.QRScanner
- com.example.uobar.QRScanner$1
+com/example/uobar/databinding/ActivityQrgeneratorBinding.java
+ com.example.uobar.databinding.ActivityQrgeneratorBinding
 com/example/uobar/Welcome.java
  com.example.uobar.Welcome
  com.example.uobar.Welcome$1
+com/example/uobar/databinding/GardenInfoBinding.java
+ com.example.uobar.databinding.GardenInfoBinding
+com/example/uobar/GoldneyButton.java
+ com.example.uobar.GoldneyButton
 com/example/uobar/QRGenerator.java
  com.example.uobar.QRGenerator
+com/example/uobar/BuildConfig.java
+ com.example.uobar.BuildConfig
+com/example/uobar/databinding/ActivityMapsBinding.java
+ com.example.uobar.databinding.ActivityMapsBinding
+com/example/uobar/databinding/ActivityWelcomeBinding.java
+ com.example.uobar.databinding.ActivityWelcomeBinding
+com/example/uobar/databinding/ActivityQrscannerBinding.java
+ com.example.uobar.databinding.ActivityQrscannerBinding
+com/example/uobar/RoyalFortButton.java
+ com.example.uobar.RoyalFortButton
+com/example/uobar/databinding/ActivityMainBinding.java
+ com.example.uobar.databinding.ActivityMainBinding
+com/example/uobar/QRScanner.java
+ com.example.uobar.QRScanner
+ com.example.uobar.QRScanner$1
 com/example/uobar/MainActivity.java
  com.example.uobar.MainActivity
+com/example/uobar/MapsActivity.java
+ com.example.uobar.MapsActivity

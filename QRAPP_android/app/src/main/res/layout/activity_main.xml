@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/option_bg"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
@@ -13,37 +13,42 @@
         android:id="@+id/QRScanBtn"
         android:layout_width="250dp"
         android:layout_height="80dp"
-        android:text="@string/qr_scanner"
-        android:layout_marginTop="50dp"
         android:layout_gravity="center"
-         />
+        android:layout_marginTop="50dp"
+        android:text="@string/qr_scanner" />
 
     <Button
         android:id="@+id/QRGenerateBtn"
         android:layout_width="250dp"
         android:layout_height="80dp"
-        android:text="@string/qr_generator"
-        android:layout_marginTop="10dp"
         android:layout_gravity="center"
-        />
+        android:layout_marginTop="10dp"
+        android:text="@string/qr_generator" />
 
 
     <ImageButton
         android:id="@+id/GoldneyID"
         android:layout_width="250dp"
         android:layout_height="150dp"
-        android:layout_marginTop="10dp"
         android:layout_gravity="center"
-        android:background="@drawable/goldney_intro"
-        />
+        android:layout_marginTop="10dp"
+        android:background="@drawable/goldney_intro" />
 
 
     <ImageButton
         android:id="@+id/RoyalID"
         android:layout_width="250dp"
         android:layout_height="150dp"
+        android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:layout_gravity="center"
         android:background="@drawable/royal_intro" />
+
+    <Button
+        android:id="@+id/MapBtn"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="@string/map" />
+
 </LinearLayout>

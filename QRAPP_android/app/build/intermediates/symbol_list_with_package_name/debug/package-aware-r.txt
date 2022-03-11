@@ -1927,6 +1927,7 @@ id CTRL
 id FUNCTION
 id GoldneyID
 id META
+id MapBtn
 id NO_DEBUG
 id QRGenerateBtn
 id QRGeneratorBtn
@@ -2171,6 +2172,7 @@ id line3
 id linear
 id listMode
 id list_item
+id map
 id masked
 id match_constraint
 id match_parent
@@ -2483,6 +2485,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_maps
 layout activity_qrgenerator
 layout activity_qrscanner
 layout activity_welcome
@@ -2636,9 +2639,11 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string google_maps_key
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string map
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2705,6 +2710,7 @@ string rescan
 string scan_results_are_here
 string search_menu_title
 string status_bar_notification_info_overflow
+string title_activity_maps
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
