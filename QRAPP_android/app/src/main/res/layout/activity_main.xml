@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/option_bg"
     tools:context=".MainActivity">
 
@@ -13,18 +12,15 @@
         android:id="@+id/QRScanBtn"
         android:layout_width="250dp"
         android:layout_height="80dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         android:text="@string/qr_scanner"
-        android:layout_marginTop="50dp"
-        android:layout_gravity="center"
-         />
-
-    <Button
-        android:id="@+id/QRGenerateBtn"
-        android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:text="@string/qr_generator"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/GoldneyID"
         />
 
 
@@ -32,9 +28,11 @@
         android:id="@+id/GoldneyID"
         android:layout_width="250dp"
         android:layout_height="150dp"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"
         android:background="@drawable/goldney_intro"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/QRScanBtn"
+        app:layout_constraintBottom_toTopOf="@id/RoyalID"
         />
 
 
@@ -42,8 +40,11 @@
         android:id="@+id/RoyalID"
         android:layout_width="250dp"
         android:layout_height="150dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_gravity="center"
-        android:background="@drawable/royal_intro" />
-</LinearLayout>
+        android:background="@drawable/royal_intro"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GoldneyID"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class GoldneyButton extends AppCompatActivity {
 
    TextView goldneyInfo;
-   ImageButton  goldneyBttn;
+   ImageButton  goldneyBttn,next;
    @Override
     protected  void onCreate(Bundle savedInstanceState) {
 
@@ -27,6 +27,9 @@ public class GoldneyButton extends AppCompatActivity {
 
 
        goldneyInfo.setText("The text which contains information about the Goldney garden");
+
+       next = findViewById(R.id.Next_scan);
+       next.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),scan_page.class)));
 
    }
 

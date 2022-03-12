@@ -48,6 +48,10 @@
         "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\transition_activity_fade.xml.flat",
+        "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\transition\\activity_fade.xml"
+    },
+    {
         "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -66,6 +70,10 @@
     {
         "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_welcome_bg.png.flat",
         "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\drawable-xhdpi\\welcome_bg.png"
+    },
+    {
+        "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_pink_bg.png.flat",
+        "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\drawable-xhdpi\\pink_bg.png"
     },
     {
         "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -88,8 +96,16 @@
         "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_scan_page.xml.flat",
+        "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\layout\\activity_scan_page.xml"
+    },
+    {
         "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\transition_activity_slide.xml.flat",
+        "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\transition\\activity_slide.xml"
     },
     {
         "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",

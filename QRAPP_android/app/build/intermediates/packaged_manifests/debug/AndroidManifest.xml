@@ -38,6 +38,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.UOBAR" >
         <activity
+            android:name="com.example.uobar.scan_page"
+            android:exported="false" />
+        <activity
             android:name="com.example.uobar.QRGenerator"
             android:exported="false" />
         <activity
