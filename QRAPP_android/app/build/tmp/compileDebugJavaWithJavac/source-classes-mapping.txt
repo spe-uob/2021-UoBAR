@@ -1,17 +1,23 @@
-com/example/uobar/QRGenerator.java
- com.example.uobar.QRGenerator
-com/example/uobar/scan_page.java
- com.example.uobar.scan_page
 com/example/uobar/BuildConfig.java
  com.example.uobar.BuildConfig
-com/example/uobar/QRScanner.java
- com.example.uobar.QRScanner
- com.example.uobar.QRScanner$1
 com/example/uobar/Welcome.java
  com.example.uobar.Welcome
 com/example/uobar/GoldneyButton.java
  com.example.uobar.GoldneyButton
+ com.example.uobar.GoldneyButton$1
+ com.example.uobar.GoldneyButton$2
 com/example/uobar/RoyalFortButton.java
  com.example.uobar.RoyalFortButton
+ com.example.uobar.RoyalFortButton$1
+ com.example.uobar.RoyalFortButton$2
+com/example/uobar/QRScanner.java
+ com.example.uobar.QRScanner
+ com.example.uobar.QRScanner$1
+com/example/uobar/QRGenerator.java
+ com.example.uobar.QRGenerator
+com/example/uobar/scan_page.java
+ com.example.uobar.scan_page
 com/example/uobar/MainActivity.java
  com.example.uobar.MainActivity
+com/example/uobar/Audio.java
+ com.example.uobar.Audio

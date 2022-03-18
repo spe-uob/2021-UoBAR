@@ -1,27 +1,39 @@
 [
     {
-        "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_next_icon.png.flat",
-        "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\drawable-xhdpi\\next_icon.png"
-    },
-    {
         "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_audio.xml.flat",
+        "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\layout\\activity_audio.xml"
+    },
+    {
+        "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\raw_test.mp3.flat",
+        "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\raw\\test.mp3"
     },
     {
         "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_initial_qr.png.flat",
+        "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\drawable-xhdpi\\initial_qr.png"
+    },
+    {
+        "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_next.png.flat",
+        "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\drawable-xhdpi\\next.png"
+    },
+    {
         "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_option_bg.png.flat",
-        "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\drawable-xhdpi\\option_bg.png"
-    },
-    {
         "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_goldintro_bg.png.flat",
         "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\drawable-xhdpi\\goldintro_bg.png"
+    },
+    {
+        "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_option_bg.png.flat",
+        "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\drawable-xhdpi\\option_bg.png"
     },
     {
         "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -100,8 +112,16 @@
         "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\layout\\activity_scan_page.xml"
     },
     {
+        "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_audio.png.flat",
+        "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\drawable-xhdpi\\audio.png"
+    },
+    {
         "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_back.png.flat",
+        "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\drawable-xhdpi\\back.png"
     },
     {
         "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\transition_activity_slide.xml.flat",
