@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class scan_page extends AppCompatActivity {
+public class Scan_Page extends AppCompatActivity {
 
     private Button QRScanBtn;
     @Override
