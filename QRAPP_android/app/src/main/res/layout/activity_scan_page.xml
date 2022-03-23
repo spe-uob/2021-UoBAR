@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/option_bg"
-    tools:context=".scan_page">
+    tools:context=".Scan_Page">
 
     <Button
         android:id="@+id/QRScanBtn"
