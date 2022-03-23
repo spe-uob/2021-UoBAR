@@ -5,17 +5,23 @@ import android.content.res.AssetFileDescriptor;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.IOException;
 
 public class Audio extends AppCompatActivity {
+    ImageButton back;
     MediaPlayer player;
+
     protected  void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_audio);
+        back = findViewById(R.id.audio_back);
+        back.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),QRScanner.class)));
+
 
     }
     public void play(View v) throws IOException {

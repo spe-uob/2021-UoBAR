@@ -1470,6 +1470,7 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -1827,8 +1828,10 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable audio
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1878,6 +1881,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable initial_qr
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1899,7 +1903,7 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
-drawable next_icon
+drawable next
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1930,6 +1934,8 @@ id GoldneyID
 id META
 id NO_DEBUG
 id Next_scan
+id PauseAudio
+id PlayAudio
 id QRGeneratorBtn
 id QRImage
 id QRInputText
@@ -1940,6 +1946,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id StopAudio
 id TOP_END
 id TOP_START
 id Welcome
@@ -2014,6 +2021,8 @@ id anticipate
 id arc
 id asConfigured
 id async
+id audio
+id audio_back
 id auto
 id autoComplete
 id autoCompleteToEnd
@@ -2151,6 +2160,7 @@ id image
 id immediateStop
 id included
 id info
+id info_back
 id invisible
 id inward
 id italic
@@ -2483,6 +2493,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_audio
 layout activity_main
 layout activity_qrgenerator
 layout activity_qrscanner
@@ -2578,6 +2589,7 @@ menu example_menu2
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw test
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2640,6 +2652,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string intro_goldney
 string item_view_role_description
 string material_clock_display_divider
 string material_clock_toggle_content_description

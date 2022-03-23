@@ -56,6 +56,9 @@
             android:name="com.example.uobar.MainActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.uobar.Audio"
+            android:exported="false" />
+        <activity
             android:name="com.example.uobar.Welcome"
             android:exported="true" >
             <intent-filter>
