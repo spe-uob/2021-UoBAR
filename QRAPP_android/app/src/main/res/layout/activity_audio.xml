@@ -6,51 +6,60 @@
     android:layout_height="match_parent"
     android:background="@drawable/pink_bg">
 
-    <Button
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/PlayAudio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="play/resume"
-        android:onClick="play"
-        android:layout_marginTop="20dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/PauseAudio"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        android:layout_margin="20dp"
 
-    <Button
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="24dp"
+        android:clickable="true"
+        android:onClick="play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        app:srcCompat="@drawable/ic_play_arrow" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/PauseAudio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="pause"
-        android:text="Pause"
-        android:layout_marginTop="80dp"
-        app:layout_constraintTop_toBottomOf="@id/PlayAudio"
-        app:layout_constraintBottom_toTopOf="@+id/StopAudio"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
 
-    <Button
-        android:id="@+id/StopAudio"
-        android:layout_width="wrap_content"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="75dp"
+        android:clickable="true"
+        android:onClick="pause"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/PlayAudio"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        app:srcCompat="@drawable/ic_pause" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Stop"
-        android:onClick="stop"
-        android:layout_marginBottom="40dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/PauseAudio"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/PlayAudio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/audio_back" />
 
     <ImageButton
         android:id="@+id/audio_back"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="345dp"
         android:background="@drawable/back"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
