@@ -7,9 +7,8 @@ com/example/uobar/databinding/GardenInfoBinding.java
  com.example.uobar.databinding.GardenInfoBinding
 com/example/uobar/GoldneyButton.java
  com.example.uobar.GoldneyButton
-com/example/uobar/QRScanner.java
- com.example.uobar.QRScanner
- com.example.uobar.QRScanner$1
+com/example/uobar/QRGenerator.java
+ com.example.uobar.QRGenerator
 com/example/uobar/BuildConfig.java
  com.example.uobar.BuildConfig
 com/example/uobar/databinding/ActivityMapsBinding.java
@@ -22,9 +21,10 @@ com/example/uobar/RoyalFortButton.java
  com.example.uobar.RoyalFortButton
 com/example/uobar/databinding/ActivityMainBinding.java
  com.example.uobar.databinding.ActivityMainBinding
-com/example/uobar/MapsActivity.java
- com.example.uobar.MapsActivity
-com/example/uobar/QRGenerator.java
- com.example.uobar.QRGenerator
+com/example/uobar/QRScanner.java
+ com.example.uobar.QRScanner
+ com.example.uobar.QRScanner$1
 com/example/uobar/MainActivity.java
  com.example.uobar.MainActivity
+com/example/uobar/MapsActivity.java
+ com.example.uobar.MapsActivity
