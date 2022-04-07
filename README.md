@@ -77,4 +77,17 @@ As a client, I want the app to be delivered on time and to be bug free so that i
 
 
 
+## Deployment Instructions 
 
+For deploying the app on Google's Play Store, please visit [this link](https://orangesoft.co/blog/how-to-publish-an-android-app-on-google-play-store).
+
+This is a step by step on how to get the APK file which can then be installed on any android device.
+
+	1. Open the project in Android Studio by following the Set up steps 1-4
+	2. In the Build section, select Build Bundle(s)/APK(s) -> Build APK(s)
+	3. Android Studio will then start building an APK file
+	4. APK can be then found in \app\build\outputs\apk\debug as app-debug.
+
+The APK is now ready. It can be installed on any android phone. 
+
+The easiest way to get it on your android smartphone is by connecting the phone to the computer, via an USB cable. When prompted with what you want to do with this device, select the option which allows you to see the files of the phone. Next, open the Files folder from your phone on your computer, and copy the app-debug there. Once you have done that, the APK should be on your phone. Click on the APK, and follow the on-screen instructions. The app should now be installed on your phone.
