@@ -45,7 +45,7 @@
 27    </queries>
 28
 29    <application
-29-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:9:5-47:19
+29-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:9:5-44:19
 30        android:allowBackup="true"
 30-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:10:9-35
 31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -66,113 +66,107 @@
 39-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:16:9-43
 40        <activity
 40-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:17:9-19:40
-41            android:name="com.example.uobar.scan_page"
+41            android:name="com.example.uobar.Scan_Page"
 41-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:18:13-38
 42            android:exported="false" />
 42-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:19:13-37
 43        <activity
 43-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:20:9-22:40
-44            android:name="com.example.uobar.QRGenerator"
-44-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:21:13-40
+44            android:name="com.example.uobar.GoldneyButton"
+44-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:21:13-42
 45            android:exported="false" />
 45-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:22:13-37
 46        <activity
 46-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:23:9-25:40
-47            android:name="com.example.uobar.GoldneyButton"
-47-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:24:13-42
+47            android:name="com.example.uobar.RoyalFortButton"
+47-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:24:13-44
 48            android:exported="false" />
 48-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:25:13-37
 49        <activity
 49-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:26:9-28:40
-50            android:name="com.example.uobar.RoyalFortButton"
-50-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:27:13-44
+50            android:name="com.example.uobar.QRScanner"
+50-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:27:13-38
 51            android:exported="false" />
 51-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:28:13-37
 52        <activity
 52-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:29:9-31:40
-53            android:name="com.example.uobar.QRScanner"
-53-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:30:13-38
+53            android:name="com.example.uobar.MainActivity"
+53-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:30:13-41
 54            android:exported="false" />
 54-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:31:13-37
 55        <activity
 55-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:32:9-34:40
-56            android:name="com.example.uobar.MainActivity"
-56-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:33:13-41
+56            android:name="com.example.uobar.Audio"
+56-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:33:13-34
 57            android:exported="false" />
 57-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:34:13-37
 58        <activity
-58-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:35:9-37:40
-59            android:name="com.example.uobar.Audio"
-59-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:36:13-34
-60            android:exported="false" />
-60-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:37:13-37
-61        <activity
-61-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:38:9-46:20
-62            android:name="com.example.uobar.Welcome"
-62-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:39:13-36
-63            android:exported="true" >
-63-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:40:13-36
-64            <intent-filter>
-64-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:41:13-45:29
-65                <action android:name="android.intent.action.MAIN" />
-65-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:42:17-69
-65-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:42:25-66
-66
-67                <category android:name="android.intent.category.LAUNCHER" />
-67-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:44:17-77
-67-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:44:27-74
-68            </intent-filter>
-69        </activity>
-70        <activity
-70-->[com.karumi:dexter:6.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\e49fc4c263fbd10696fda2e756fcf048\transformed\jetified-dexter-6.0.0\AndroidManifest.xml:27:9-29:72
-71            android:name="com.karumi.dexter.DexterActivity"
-71-->[com.karumi:dexter:6.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\e49fc4c263fbd10696fda2e756fcf048\transformed\jetified-dexter-6.0.0\AndroidManifest.xml:28:13-60
-72            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Needs to be explicitly declared on P+ -->
-72-->[com.karumi:dexter:6.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\e49fc4c263fbd10696fda2e756fcf048\transformed\jetified-dexter-6.0.0\AndroidManifest.xml:29:13-69
-73        <uses-library
-73-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:39:9-41:40
-74            android:name="org.apache.http.legacy"
-74-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:40:13-50
-75            android:required="false" />
-75-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:41:13-37
-76
-77        <activity
-77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-79            android:exported="false"
-79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-80-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-81
-82        <meta-data
-82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-83            android:name="com.google.android.gms.version"
-83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-84            android:value="@integer/google_play_services_version" />
-84-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-85
-86        <provider
-86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-87            android:name="androidx.startup.InitializationProvider"
-87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-88            android:authorities="com.example.uobar.androidx-startup"
-88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-89            android:exported="false" >
-89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+58-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:35:9-43:20
+59            android:name="com.example.uobar.Welcome"
+59-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:36:13-36
+60            android:exported="true" >
+60-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:37:13-36
+61            <intent-filter>
+61-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:38:13-42:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:39:17-69
+62-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:39:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:41:17-77
+64-->D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:41:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->[com.karumi:dexter:6.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\e49fc4c263fbd10696fda2e756fcf048\transformed\jetified-dexter-6.0.0\AndroidManifest.xml:27:9-29:72
+68            android:name="com.karumi.dexter.DexterActivity"
+68-->[com.karumi:dexter:6.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\e49fc4c263fbd10696fda2e756fcf048\transformed\jetified-dexter-6.0.0\AndroidManifest.xml:28:13-60
+69            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Needs to be explicitly declared on P+ -->
+69-->[com.karumi:dexter:6.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\e49fc4c263fbd10696fda2e756fcf048\transformed\jetified-dexter-6.0.0\AndroidManifest.xml:29:13-69
+70        <uses-library
+70-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:39:9-41:40
+71            android:name="org.apache.http.legacy"
+71-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:40:13-50
+72            android:required="false" />
+72-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\d4caa067414bba39801ee5864208e2f9\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:41:13-37
+73
+74        <activity
+74-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+78
+79        <meta-data
+79-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+80            android:name="com.google.android.gms.version"
+80-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+82
+83        <provider
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+84            android:name="androidx.startup.InitializationProvider"
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+85            android:authorities="com.example.uobar.androidx-startup"
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+86            android:exported="false" >
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+87            <meta-data
+87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+89                android:value="androidx.startup" />
+89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
 90            <meta-data
-90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+90-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Nolan\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+91-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Nolan\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 92                android:value="androidx.startup" />
-92-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-93            <meta-data
-93-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Nolan\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-94-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Nolan\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-95                android:value="androidx.startup" />
-95-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Nolan\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-96        </provider>
-97    </application>
-98
-99</manifest>
+92-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Nolan\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+93        </provider>
+94    </application>
+95
+96</manifest>

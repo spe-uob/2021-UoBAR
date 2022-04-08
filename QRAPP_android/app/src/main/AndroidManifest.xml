@@ -15,10 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UOBAR">
         <activity
-            android:name=".scan_page"
-            android:exported="false" />
-        <activity
-            android:name=".QRGenerator"
+            android:name=".Scan_Page"
             android:exported="false" />
         <activity
             android:name=".GoldneyButton"
