@@ -45,6 +45,12 @@ public class QRGenerator extends AppCompatActivity {
             if (text.isEmpty()){
                 Toast.makeText(QRGenerator.this, "Input is required", Toast.LENGTH_SHORT).show();
             } else {
+                if(text.contains(".mp3")){
+                    text = "UOBAR-AUDIO"+text;
+                }
+                else{
+                    text ="UOBAR"+text;
+                }
                 QRGEncoder qrgEncoder = new QRGEncoder(text, null, QRGContents.Type.TEXT, 500);
                 QRMap = qrgEncoder.getBitmap();
                 QRImage.setImageBitmap(QRMap);
