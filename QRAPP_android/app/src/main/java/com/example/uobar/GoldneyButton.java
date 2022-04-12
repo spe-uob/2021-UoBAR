@@ -37,7 +37,7 @@ public class GoldneyButton extends AppCompatActivity {
        goldneyInfo.setText("The text which contains information about the Goldney garden");
 
        next = findViewById(R.id.Next_scan);
-       next.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),scan_page.class)));
+       next.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),Scan_Page.class)));
 
 
        t2s = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {

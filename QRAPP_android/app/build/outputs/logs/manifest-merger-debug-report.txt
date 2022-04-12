@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-49:12
+ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-46:12
 MERGED from [com.karumi:dexter:6.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\e49fc4c263fbd10696fda2e756fcf048\transformed\jetified-dexter-6.0.0\AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Nolan\.gradle\caches\transforms-3\f794c157ce27c216c504b2261e60ef5d\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\Nolan\.gradle\caches\transforms-3\102de147192b5ae927c001061465296f\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
@@ -50,20 +50,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Nolan\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\eb3bd80f829817dc46cef00554f9b4ab\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\998ecad2e598076d0444e5b886cc28b2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Nolan\.gradle\caches\transforms-3\abd986d958258d7e8503cbe4ed7e75cb\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml
-		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-49:12
+		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml
-		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-49:12
+		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:2:11-69
@@ -82,7 +82,7 @@ ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:7:
 	android:name
 		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:7:22-77
 application
-ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:9:5-47:19
+ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:9:5-44:19
 MERGED from [com.karumi:dexter:6.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\e49fc4c263fbd10696fda2e756fcf048\transformed\jetified-dexter-6.0.0\AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:6.0.0] C:\Users\Nolan\.gradle\caches\transforms-3\e49fc4c263fbd10696fda2e756fcf048\transformed\jetified-dexter-6.0.0\AndroidManifest.xml:26:5-30:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Nolan\.gradle\caches\transforms-3\f794c157ce27c216c504b2261e60ef5d\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
@@ -125,64 +125,58 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Nolan\.gradle\cach
 		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
 		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:16:9-43
-activity#com.example.uobar.scan_page
+activity#com.example.uobar.Scan_Page
 ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
 		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:18:13-38
-activity#com.example.uobar.QRGenerator
+activity#com.example.uobar.GoldneyButton
 ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
 		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:21:13-40
-activity#com.example.uobar.GoldneyButton
+		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:21:13-42
+activity#com.example.uobar.RoyalFortButton
 ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
 		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:24:13-42
-activity#com.example.uobar.RoyalFortButton
+		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:24:13-44
+activity#com.example.uobar.QRScanner
 ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
 		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:27:13-44
-activity#com.example.uobar.QRScanner
+		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:27:13-38
+activity#com.example.uobar.MainActivity
 ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
 		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:30:13-38
-activity#com.example.uobar.MainActivity
+		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:30:13-41
+activity#com.example.uobar.Audio
 ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
 		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:33:13-41
-activity#com.example.uobar.Audio
-ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:35:9-37:40
-	android:exported
-		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:37:13-37
-	android:name
-		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:36:13-34
+		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:33:13-34
 activity#com.example.uobar.Welcome
-ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:38:9-46:20
+ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:35:9-43:20
 	android:exported
-		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:40:13-36
+		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:39:13-36
+		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:36:13-36
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:41:13-45:29
+ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:42:17-69
+ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:42:25-66
+		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:44:17-77
+ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:44:27-74
+		ADDED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:41:27-74
 uses-sdk
 INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\UoBAR\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml

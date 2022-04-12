@@ -33,7 +33,7 @@ public class RoyalFortButton extends AppCompatActivity {
         royalInfo.setText("The text which contains information about the Royal garden");
 
         next = findViewById(R.id.Next_scan);
-        next.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),scan_page.class)));
+        next.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),Scan_Page.class)));
 
         back = findViewById(R.id.info_back);
         back.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),MainActivity.class)));
