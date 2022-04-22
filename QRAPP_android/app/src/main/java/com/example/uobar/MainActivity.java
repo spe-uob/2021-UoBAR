@@ -11,7 +11,6 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button QRScanBtn, QRGenerateBtn;
     private ImageButton GoldneyInfoBtn, RoyalInfoBtn;
 
     @Override
@@ -19,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        QRScanBtn = findViewById(R.id.QRScanBtn);
-        QRScanBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), QRScanner.class)));
         GoldneyInfoBtn = findViewById(R.id.GoldneyID);
         GoldneyInfoBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), GoldneyButton.class)));
         RoyalInfoBtn = findViewById(R.id.RoyalID);

@@ -1,3 +1,5 @@
+com/example/uobar/BuildConfig.java
+ com.example.uobar.BuildConfig
 com/example/uobar/Welcome.java
  com.example.uobar.Welcome
 com/example/uobar/Scan_Page.java
@@ -13,8 +15,6 @@ com/example/uobar/RoyalFortButton.java
 com/example/uobar/QRScanner.java
  com.example.uobar.QRScanner
  com.example.uobar.QRScanner$1
-com/example/uobar/BuildConfig.java
- com.example.uobar.BuildConfig
 com/example/uobar/MainActivity.java
  com.example.uobar.MainActivity
 com/example/uobar/Audio.java
