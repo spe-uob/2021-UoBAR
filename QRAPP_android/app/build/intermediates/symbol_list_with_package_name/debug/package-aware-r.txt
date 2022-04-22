@@ -2289,6 +2289,7 @@ id save_overlay_view
 id sawtooth
 id scale
 id scanResult
+id scan_back
 id scanner
 id screen
 id scroll

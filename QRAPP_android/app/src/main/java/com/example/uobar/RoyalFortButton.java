@@ -17,8 +17,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class RoyalFortButton extends AppCompatActivity {
 
     TextView royalInfo;
-    ImageButton royalBttn, next, audio, back;
-    TextToSpeech t2s;
+    ImageButton royalBttn, next_scan, audio, back_main;
+    TextToSpeech textToS;
 
 
     @Override
@@ -32,19 +32,19 @@ public class RoyalFortButton extends AppCompatActivity {
 
         royalInfo.setText("The text which contains information about the Royal garden");
 
-        next = findViewById(R.id.Next_scan);
-        next.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),Scan_Page.class)));
+        next_scan = findViewById(R.id.Next_scan);
+        next_scan.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),Scan_Page.class)));
 
-        back = findViewById(R.id.info_back);
-        back.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),MainActivity.class)));
+        back_main = findViewById(R.id.info_back);
+        back_main.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),MainActivity.class)));
 
 
-        audio = (ImageButton)findViewById(R.id.audio);
-        t2s = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
+        audio = findViewById(R.id.audio);
+        textToS = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int status) {
                 if(status != TextToSpeech.ERROR) {
-                    t2s.setLanguage(Locale.UK);
+                    textToS.setLanguage(Locale.UK);
                 }
             }
         });
@@ -53,15 +53,15 @@ public class RoyalFortButton extends AppCompatActivity {
             public void onClick(View v) {
                 String toSpeak = royalInfo.getText().toString();
                 Toast.makeText(getApplicationContext(), toSpeak,Toast.LENGTH_SHORT).show();
-                t2s.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
+                textToS.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
             }
         });
     }
 
     public void onPause(){
-        if(t2s !=null){
-            t2s.stop();
-            t2s.shutdown();
+        if(textToS !=null){
+            textToS.stop();
+            textToS.shutdown();
         }
         super.onPause();
     }

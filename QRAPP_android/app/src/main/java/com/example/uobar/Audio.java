@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.io.IOException;
 
 public class Audio extends AppCompatActivity {
-    ImageButton back;
+    ImageButton back_scan;
     MediaPlayer player;
     SeekBar seekBar;
     Runnable runnable;
@@ -23,8 +23,8 @@ public class Audio extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_audio);
-        back = findViewById(R.id.audio_back);
-        back.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),QRScanner.class)));
+        back_scan = findViewById(R.id.audio_back);
+        back_scan.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),QRScanner.class)));
         seekBar = findViewById(R.id.seekBar);
 
     }

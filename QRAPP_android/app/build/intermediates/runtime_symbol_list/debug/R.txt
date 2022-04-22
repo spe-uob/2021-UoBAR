@@ -2288,6 +2288,7 @@ int id save_overlay_view 0x7f080166
 int id sawtooth 0x7f080167
 int id scale 0x7f080168
 int id scanResult 0x7f080169
+int id scan_back 0x7f0801ef
 int id scanner 0x7f08016a
 int id screen 0x7f08016b
 int id scroll 0x7f08016c
