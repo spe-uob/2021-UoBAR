@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\himan\\Documents\\coursework spe\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\f791586eb8e3cddcf33fb36842d7675a\\transformed\\appcompat-1.4.1\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\8cf7fc1e75fc79c06f0083c5da308464\\transformed\\material-1.4.0\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,143,231,319,407,494,581,668",
+                        "endColumns": "87,87,87,87,86,86,86,86",
+                        "endOffsets": "138,226,314,402,489,576,663,750"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\fd416b80d60ce2eb1561f0347b75eb6b\\transformed\\appcompat-1.4.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -14,22 +24,12 @@
                         "endOffsets": "125,212,442,684"
                     },
                     "to": {
-                        "startLines": "14,15,16,20",
+                        "startLines": "10,11,12,16",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "1141,1216,1303,1533",
-                        "endLines": "14,15,19,23",
+                        "startOffsets": "755,830,917,1147",
+                        "endLines": "10,11,15,19",
                         "endColumns": "74,86,12,12",
-                        "endOffsets": "1211,1298,1528,1770"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\8c8bd08bd5ab439882315c15d3205b6b\\transformed\\material-1.5.0\\res\\values-v28\\values-v28.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,248,343,441,529,617,705,793,880,967,1054",
-                        "endColumns": "97,94,94,97,87,87,87,87,86,86,86,86",
-                        "endOffsets": "148,243,338,436,524,612,700,788,875,962,1049,1136"
+                        "endOffsets": "825,912,1142,1384"
                     }
                 }
             ]

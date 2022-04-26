@@ -23,9 +23,11 @@ import com.karumi.dexter.listener.single.PermissionListener;
 
 public class QRScanner extends AppCompatActivity {
 
+    private static String audioString = "test.mp3";
     private CodeScanner mScanner;
     private CodeScannerView scanner;
     private TextView scanResult;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,9 +42,20 @@ public class QRScanner extends AppCompatActivity {
         mScanner.setDecodeCallback(result -> {
             //when the qr code is decoded, it is stored in the result variable
             //uses threading to make it more efficient
-            String decodedString = result.getText();
+             String decodedString = result.getText();
             if(!decodedString.contains("UOBAR")){
                 decodedString= " ";
+            }
+            if(decodedString.contains("UOBAR-AUDIO")){
+                audioString = decodedString.replaceAll("UOBAR-AUDIO","");
+                Intent i = new Intent(this, Audio.class);
+                i.putExtra("audioPath", audioString);
+                try{
+                    runOnUiThread(()->startActivity(i));
+                }
+                catch(Exception e){
+                    System.out.println(e);
+                }
             }
             else{
                 decodedString = decodedString.replaceAll("UOBAR","");
@@ -51,14 +64,16 @@ public class QRScanner extends AppCompatActivity {
             String finalDecodedString = decodedString;
             Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(finalDecodedString));
             try{
-                if(decodedString != " ")
+                if(decodedString != " " && decodedString != "UOBAR-AUDIO")
                     runOnUiThread(()->startActivity(intent));
             } catch (Exception e) {
                 System.out.println(e);
             }
         });
     }
-
+ public static String getPath(){
+        return audioString;
+ }
     @Override
     public void onResume() {
         super.onResume();
@@ -85,10 +100,13 @@ public class QRScanner extends AppCompatActivity {
         }).check();
     }
 
+
     @Override
     public void onPause() {
         mScanner.releaseResources();
         super.onPause();
     }
+
+
 
 }

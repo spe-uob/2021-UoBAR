@@ -1,18 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:background="@drawable/pink_bg">
+
 
     <TextView
         android:id="@+id/gardenInfoID"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
         android:textColor="@color/black"
-        android:textSize="15sp" />
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
 
-</LinearLayout>
+    <ImageButton
+        android:id="@+id/Next_scan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/next"
+        app:layout_constraintTop_toBottomOf="@+id/gardenInfoID"
+        app:layout_constraintRight_toRightOf="@id/gardenInfoID"
+        />
+
+    <ImageButton
+        android:id="@+id/audio"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/audio"
+        app:layout_constraintTop_toBottomOf="@+id/gardenInfoID"
+        app:layout_constraintLeft_toLeftOf="@id/gardenInfoID"
+        />
+
+    <ImageButton
+        android:id="@+id/info_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/back"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

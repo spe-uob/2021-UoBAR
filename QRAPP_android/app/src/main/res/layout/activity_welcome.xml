@@ -10,7 +10,6 @@
         android:id="@+id/Welcome"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
         android:gravity="center"
         android:text="Welcome\nto\nUoB\nGardens"
         android:textColor="@color/white"

@@ -15,6 +15,9 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -26,16 +29,32 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.example.uobar.databinding.ActivityMapsBinding;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, LocationListener {
 
     private GoogleMap mMap;
+    private ActivityMapsBinding binding;
     Marker usrLoc;
+    String curLoc = "unknown";
+    private ImageButton QRScanBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_maps);
+        binding = ActivityMapsBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+        QRScanBtn = findViewById(R.id.QRScanBtn);
+        QRScanBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), QRScanner.class)));
+        Bundle extras = getIntent().getExtras();
+        curLoc = extras.getString("area");
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -43,13 +62,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     /**
-     * Manipulates the map once available.
-     * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
-     * If Google Play services is not installed on the device, the user will be prompted to install
-     * it inside the SupportMapFragment. This method will only be triggered once the user has
-     * installed Google Play services and returned to the app.
+     *put this in your local.properties file -> MAPS_API_KEY=AIzaSyALn7mJzUOAypvhHCOXV8GxznKFejixPdI
      */
     @Override
     public void onMapReady(GoogleMap googleMap) {
@@ -60,14 +73,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             mMap.setMyLocationEnabled(true);
         }
 
-        //temporary variable that has your location will get this value based on gps/user input later
-        String curLoc = "RylFort";
 
         mMap.setMinZoomPreference(18.0f);
         if (curLoc.equals("Goldeney")) {
             // Add a marker in Goldeney and move the camera
             LatLng Goldeney = new LatLng(51.45249, -2.61391);
-            mMap.addMarker(new MarkerOptions().position(Goldeney).title("Marker to Goldeney"));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(Goldeney));
             //restrict location to Goldeney
             LatLngBounds goldeneyBounds = new LatLngBounds(
@@ -76,10 +86,24 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             );
             mMap.setLatLngBoundsForCameraTarget(goldeneyBounds);
 
+            try {
+                JSONObject mkrsObj = new JSONObject(loadJSONFromAsset());
+                JSONArray jsonArry = mkrsObj.getJSONArray("gldmarkers");
+                for(int i=0;i<jsonArry.length();i++){
+                    JSONObject mkrobj = jsonArry.getJSONObject(i);
+                    //create image to use on the map
+                    Bitmap bMap = addBorder(Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.defaultimg), 150, 100, false));
+
+                    //temp markers for art using bitmap
+                    mMap.addMarker(new MarkerOptions().position(new LatLng(mkrobj.getDouble("latitude"), mkrobj.getDouble("longitude"))).icon(BitmapDescriptorFactory.fromBitmap(bMap)).title(mkrobj.getString("title"))).setTag(mkrobj.getString("weblink"));
+                }
+            } catch (JSONException e) {
+                Log.e("JsonParser Example","unexpected JSON exception", e);
+            }
+
 
         } else if (curLoc.equals("RylFort")){
             LatLng RylFort = new LatLng(51.45817, -2.60172);
-            mMap.addMarker(new MarkerOptions().position(RylFort).title("Marker to Royal Fort"));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(RylFort));
             LatLngBounds rylFortBounds = new LatLngBounds(
                     new LatLng(51.45699, -2.60283),
@@ -87,16 +111,29 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             );
             mMap.setLatLngBoundsForCameraTarget(rylFortBounds);
 
-            //create image to use on the map
-            Bitmap bMap = addBorder(Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.mirror), 150, 100, false));
-            //temp markers for art using bitmap
-            mMap.addMarker(new MarkerOptions().position(new LatLng(51.45753891274606, -2.6025778327837195)).icon(BitmapDescriptorFactory.fromBitmap(bMap)).title("'Follow Me' - Jeppe Hein")).setTag("https://www.bristol.ac.uk/centenary/look/art/sculpture.html");
+            //so this part is a temp part to showcase how to add markers and images to the markers the real one should have a json file with the following parameters:
+            //latitude, longitude, title, image name, link to the website.
+            //we will use a for loop; to then iterate for each instance of a marker and populate the parameters
+            //the json file can be located either in the res folder here or can be downloaded form a server and the image can also be done the same
+            try {
+                JSONObject mkrsObj = new JSONObject(loadJSONFromAsset());
+                JSONArray jsonArry = mkrsObj.getJSONArray("rylmarkers");
+                for(int i=0;i<jsonArry.length();i++){
+                    JSONObject mkrobj = jsonArry.getJSONObject(i);
+                    Bitmap bMap = addBorder(Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.defaultimg), 150, 100, false));
+                    //temp markers for art using bitmap
+                    mMap.addMarker(new MarkerOptions().position(new LatLng(mkrobj.getDouble("latitude"), mkrobj.getDouble("longitude"))).icon(BitmapDescriptorFactory.fromBitmap(bMap)).title(mkrobj.getString("title"))).setTag(mkrobj.getString("weblink"));
+                }
+            } catch (JSONException e) {
+                Log.e("JsonParser Example","unexpected JSON exception", e);
+            }
 
 
         } else{
+            LatLng err = new LatLng(0, 0);
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(err));
             Toast.makeText(getApplicationContext(),"Error fetching location", Toast.LENGTH_LONG).show();
         }
-
 
 
         mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
@@ -110,12 +147,20 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         });
     }
 
-    @Override
-    public void onLocationChanged(Location location){
-        if (usrLoc != null) {
-            usrLoc.remove();
+    public String loadJSONFromAsset() {
+        String json = null;
+        try {
+            InputStream is = getAssets().open("markers.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
         }
-        usrLoc = mMap.addMarker(new MarkerOptions().position(new LatLng(location.getLatitude(), location.getLongitude())));
+        return json;
     }
 
     private Bitmap addBorder(Bitmap bMap) {
@@ -125,5 +170,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         canvas.drawColor(Color.WHITE);
         canvas.drawBitmap(bMap, padding, padding, null);
         return bMapBorder;
+    }
+
+    @Override
+    public void onLocationChanged(@NonNull Location location){
+        if (usrLoc != null) {
+            usrLoc.remove();
+        }
+        Toast.makeText(getApplicationContext(),"lat: " + location.getLatitude() + " long: " + location.getLongitude(), Toast.LENGTH_LONG).show();
+        usrLoc = mMap.addMarker(new MarkerOptions().position(new LatLng(location.getLatitude(), location.getLongitude())));
     }
 }

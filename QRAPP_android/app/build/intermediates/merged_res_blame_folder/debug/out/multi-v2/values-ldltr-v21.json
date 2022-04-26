@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\himan\\Documents\\coursework spe\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "outputFile": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\f791586eb8e3cddcf33fb36842d7675a\\transformed\\appcompat-1.4.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\fd416b80d60ce2eb1561f0347b75eb6b\\transformed\\appcompat-1.4.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_scan_page.xml",
+        "source": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\layout\\activity_scan_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_audio.xml",
+        "source": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\layout\\activity_audio.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\garden_info.xml",
+        "source": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\layout\\garden_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_qrscanner.xml",
+        "source": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\layout\\activity_qrscanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\himan\\Documents\\idk\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    }
+]

@@ -5,6 +5,8 @@
     <string name="back">back</string>
     <string name="rescan">Rescan</string>
     <string name="qr_generator">qr_generator</string>
-    <string name="map">Map</string>
+    <string name="intro_goldney">The historic English Landscape Garden style grounds, designed by Thomas Goldney 3rd, include an orangery, gothic tower and grotto.
+The Goldney Hall gardens encompass a 10-acre site and are known for their notable five follies: Ornamental Canal, Gothic Tower, Rotunda, Mock Bastion, Shell-lined Grotto.
+A sixth folly, the Octagon, consisted of a two-story summer house located where L block stands today. While the exact date of the removal of the Octagon is not known, it is missing from plans which date to 1864. </string>
     <string name="title_activity_maps">MapsActivity</string>
 </resources>
