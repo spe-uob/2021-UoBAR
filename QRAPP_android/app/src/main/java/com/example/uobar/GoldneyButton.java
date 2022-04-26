@@ -37,7 +37,12 @@ public class GoldneyButton extends AppCompatActivity {
        goldneyInfo.setText("The text which contains information about the Goldney garden");
 
        next_scan = findViewById(R.id.Next_scan);
-       next_scan.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),Scan_Page.class)));
+       next_scan.setOnClickListener(view -> {
+           Intent intent = new Intent();
+           intent.setClass(GoldneyButton.this, MapsActivity.class);
+           intent.putExtra("area", "Goldeney");
+           startActivity(intent);
+       });
 
        back_main = findViewById(R.id.info_back);
        back_main.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),MainActivity.class)));
