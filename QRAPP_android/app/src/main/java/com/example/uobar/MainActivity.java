@@ -19,9 +19,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         GoldneyInfoBtn = findViewById(R.id.GoldneyID);
-        GoldneyInfoBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), GoldneyButton.class)));
+        GoldneyInfoBtn.setOnClickListener(view -> {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this, MapsActivity.class);
+            intent.putExtra("area", "Goldeney");
+            startActivity(intent);
+        });
         RoyalInfoBtn = findViewById(R.id.RoyalID);
-        RoyalInfoBtn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), RoyalFortButton.class)));;
+        RoyalInfoBtn.setOnClickListener(view -> {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this, MapsActivity.class);
+            intent.putExtra("area", "RylFort");
+            startActivity(intent);
+        });
     }
 
 

@@ -1859,6 +1859,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable defaultimg
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -1922,6 +1923,7 @@ drawable option_bg
 drawable pink_bg
 drawable royal_intro
 drawable royalfort
+drawable scanbtn
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2179,6 +2181,7 @@ id line3
 id linear
 id listMode
 id list_item
+id map
 id masked
 id match_constraint
 id match_parent
@@ -2493,6 +2496,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_audio
 layout activity_main
+layout activity_maps
 layout activity_qrscanner
 layout activity_scan_page
 layout activity_welcome
@@ -2717,6 +2721,7 @@ string rescan
 string scan_results_are_here
 string search_menu_title
 string status_bar_notification_info_overflow
+string title_activity_maps
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
