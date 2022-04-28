@@ -120,7 +120,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 JSONArray jsonArry = mkrsObj.getJSONArray("rylmarkers");
                 for(int i=0;i<jsonArry.length();i++){
                     JSONObject mkrobj = jsonArry.getJSONObject(i);
-                    Ion.with(this).load("url").withBitmap().asBitmap()
+                    Ion.with(this).load(mkrobj.getString("imagelink")).withBitmap().asBitmap()
                             .setCallback((e, result) -> {
                                 Bitmap bMap;
                                 if (result != null){
