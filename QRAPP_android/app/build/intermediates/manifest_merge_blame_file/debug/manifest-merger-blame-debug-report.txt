@@ -6,34 +6,34 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml
+8-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml
+9-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-11-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:5:5-80
-11-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:5:22-78
+11-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:5:22-78
 12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-12-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:6:5-79
-12-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:6:22-76
+12-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-13-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:6:5-79
-13-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:6:22-76
+13-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:6:5-79
+13-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:6:22-76
 14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-14-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:6:5-79
-14-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:6:22-76
+14-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:6:5-79
+14-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:6:22-76
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:9:5-67
-15-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:9:22-64
+15-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:9:5-67
+15-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:9:22-64
 16    <uses-permission android:name="android.permission.CAMERA" />
-16-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:10:5-65
-16-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:10:22-62
+16-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:10:5-65
+16-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:10:22-62
 17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-17-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:11:5-81
-17-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:11:22-78
+17-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:11:5-81
+17-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:11:22-78
 18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-18-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:12:5-80
-18-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:12:22-77
+18-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:12:5-80
+18-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:12:22-77
 19
 20    <!-- Include required permissions for Google Maps API to run. -->
 21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -57,25 +57,25 @@
 31    </queries>
 32
 33    <application
-33-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:14:5-69:19
+33-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:14:5-69:19
 34        android:allowBackup="true"
-34-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:15:9-35
+34-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:15:9-35
 35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 35-->[androidx.core:core:1.7.0] C:\Users\himan\.gradle\caches\transforms-3\962de192d006ed4ee64f44d54d96ab17\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 36        android:debuggable="true"
 37        android:icon="@mipmap/ic_launcher"
-37-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:16:9-43
+37-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:16:9-43
 38        android:label="@string/app_name"
-38-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:17:9-41
+38-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:17:9-41
 39        android:requestLegacyExternalStorage="true"
-39-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:18:9-52
+39-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:18:9-52
 40        android:roundIcon="@mipmap/ic_launcher_round"
-40-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:19:9-54
+40-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:19:9-54
 41        android:supportsRtl="true"
-41-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:20:9-35
+41-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:20:9-35
 42        android:testOnly="true"
 43        android:theme="@style/Theme.UOBAR" >
-43-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:21:9-43
+43-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:21:9-43
 44
 45        <!--
 46             TODO: Before you run your application, you need a Google Maps API key.
@@ -90,69 +90,69 @@
 55        -->
 56        <meta-data
 57            android:name="com.google.android.geo.API_KEY"
-57-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:35:13-58
+57-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:35:13-58
 58            android:value="AIzaSyALn7mJzUOAypvhHCOXV8GxznKFejixPdI" />
-58-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:36:13-44
+58-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:36:13-44
 59
 60        <activity
-60-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:38:9-41:59
+60-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:38:9-41:59
 61            android:name="com.example.uobar.MapsActivity"
-61-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:39:13-41
+61-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:39:13-41
 62            android:exported="false"
-62-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:40:13-37
+62-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:40:13-37
 63            android:label="@string/title_activity_maps" />
-63-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:41:13-56
+63-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:41:13-56
 64        <activity
-64-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:42:9-44:40
+64-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:42:9-44:40
 65            android:name="com.example.uobar.Scan_Page"
-65-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:43:13-38
+65-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:43:13-38
 66            android:exported="false" />
-66-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:44:13-37
+66-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:44:13-37
 67        <activity
-67-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:45:9-47:40
+67-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:45:9-47:40
 68            android:name="com.example.uobar.GoldneyButton"
-68-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:46:13-42
+68-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:46:13-42
 69            android:exported="false" />
-69-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:47:13-37
+69-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:47:13-37
 70        <activity
-70-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:48:9-50:40
+70-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:48:9-50:40
 71            android:name="com.example.uobar.RoyalFortButton"
-71-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:49:13-44
+71-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:49:13-44
 72            android:exported="false" />
-72-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:50:13-37
+72-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:50:13-37
 73        <activity
-73-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:51:9-53:40
+73-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:51:9-53:40
 74            android:name="com.example.uobar.QRScanner"
-74-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:52:13-38
+74-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:52:13-38
 75            android:exported="false" />
-75-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:53:13-37
+75-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:53:13-37
 76        <activity
-76-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:54:9-56:40
+76-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:54:9-56:40
 77            android:name="com.example.uobar.MainActivity"
-77-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:55:13-41
+77-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:55:13-41
 78            android:exported="false" />
-78-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:56:13-37
+78-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:56:13-37
 79        <activity
-79-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:57:9-59:40
+79-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:57:9-59:40
 80            android:name="com.example.uobar.Audio"
-80-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:58:13-34
+80-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:58:13-34
 81            android:exported="false" />
-81-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:59:13-37
+81-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:59:13-37
 82        <activity
-82-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:60:9-68:20
+82-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:60:9-68:20
 83            android:name="com.example.uobar.Welcome"
-83-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:61:13-36
+83-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:61:13-36
 84            android:exported="true" >
-84-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:62:13-36
+84-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:62:13-36
 85            <intent-filter>
-85-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:63:13-67:29
+85-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:63:13-67:29
 86                <action android:name="android.intent.action.MAIN" />
-86-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:64:17-69
-86-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:64:25-66
+86-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:64:17-69
+86-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:64:25-66
 87
 88                <category android:name="android.intent.category.LAUNCHER" />
-88-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:66:17-77
-88-->C:\Users\himan\Documents\delete m\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:66:27-74
+88-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:66:17-77
+88-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:66:27-74
 89            </intent-filter>
 90        </activity>
 91        <activity

@@ -1,9 +1,5 @@
 package com.example.uobar;
 
-import androidx.annotation.NonNull;
-import androidx.core.content.ContextCompat;
-import androidx.fragment.app.FragmentActivity;
-
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -16,10 +12,14 @@ import android.location.LocationListener;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
+import androidx.fragment.app.FragmentActivity;
+
+import com.example.uobar.databinding.ActivityMapsBinding;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -29,7 +29,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.example.uobar.databinding.ActivityMapsBinding;
+import com.koushikdutta.ion.Ion;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -120,10 +120,21 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 JSONArray jsonArry = mkrsObj.getJSONArray("rylmarkers");
                 for(int i=0;i<jsonArry.length();i++){
                     JSONObject mkrobj = jsonArry.getJSONObject(i);
-                    Bitmap bMap = addBorder(Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.defaultimg), 150, 100, false));
-                    //temp markers for art using bitmap
-                    mMap.addMarker(new MarkerOptions().position(new LatLng(mkrobj.getDouble("latitude"), mkrobj.getDouble("longitude"))).icon(BitmapDescriptorFactory.fromBitmap(bMap)).title(mkrobj.getString("title"))).setTag(mkrobj.getString("weblink"));
-                }
+                    Ion.with(this).load("url").withBitmap().asBitmap()
+                            .setCallback((e, result) -> {
+                                Bitmap bMap;
+                                if (result != null){
+                                    bMap = addBorder(Bitmap.createScaledBitmap(result, 150, 100, false));
+                                }else{
+                                    bMap = addBorder(Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.defaultimg), 150, 100, false));
+                                }
+                                try {
+                                    mMap.addMarker(new MarkerOptions().position(new LatLng(mkrobj.getDouble("latitude"), mkrobj.getDouble("longitude"))).icon(BitmapDescriptorFactory.fromBitmap(bMap)).title(mkrobj.getString("title"))).setTag(mkrobj.getString("weblink"));
+                                } catch (JSONException jsonException) {
+                                    jsonException.printStackTrace();
+                                }
+                            });
+                    }
             } catch (JSONException e) {
                 Log.e("JsonParser Example","unexpected JSON exception", e);
             }
