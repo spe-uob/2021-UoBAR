@@ -1,0 +1,49 @@
+{
+
+  "rylmarkers": [
+
+    {
+
+      "latitude": 51.45753891274606,
+
+      "longitude": -2.6025778327837195,
+
+      "title": "'Follow Me' - Jeppe Hein",
+
+      "imagelink": "https://www.bristol.ac.uk/centenary/look/images/sculpture.jpg",
+
+      "weblink": "https://www.bristol.ac.uk/centenary/look/art/sculpture.html"
+    },
+    {
+
+      "latitude": 51.45742376085081,
+
+      "longitude": -2.6010216623202846,
+
+      "title": "Hollow - Katie Paterson",
+
+      "imagelink": "https://katiepaterson.org/wp-content/uploads/2022/02/Katie_Paterson_Zeller_Moye_Hollow_9.jpg",
+
+      "weblink": "https://katiepaterson.org/artwork/hollow/"
+    }
+
+  ],
+
+  "gldmarkers": [
+
+    {
+
+      "latitude": 51.45197365577399,
+
+      "longitude": -2.613851364526714,
+
+      "title": "Goldeney grotto",
+
+      "imagelink": "https://www.whateversleft.co.uk/wp-content/uploads/2008/05/2.jpg",
+
+      "weblink": "https://www.bristol.ac.uk/media-library/sites/venues/documents/goldney-grotto.pdf"
+    }
+
+  ]
+
+}
