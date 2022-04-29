@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\himan\\Documents\\coursework spe\\aaaa\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\31bbec80ba4a842e57d1847179951b7f\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\29d4e346c3cb36313b095ac77e558c71\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\fd416b80d60ce2eb1561f0347b75eb6b\\transformed\\appcompat-1.4.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\04000f370e51023a7635e09dcc17fcb4\\transformed\\appcompat-1.4.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

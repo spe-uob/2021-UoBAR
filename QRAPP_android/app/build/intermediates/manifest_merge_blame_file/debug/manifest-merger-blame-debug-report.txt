@@ -34,177 +34,174 @@
 18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 18-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:12:5-80
 18-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:12:22-77
-19
-20    <!-- Include required permissions for Google Maps API to run. -->
-21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-21-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\6adbb3d8330eeeda0ec1950dc1632032\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:23:5-79
-21-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\6adbb3d8330eeeda0ec1950dc1632032\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:23:22-76
-22
-23    <uses-feature
-23-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\6adbb3d8330eeeda0ec1950dc1632032\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:26:5-28:35
-24        android:glEsVersion="0x00020000"
-24-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\6adbb3d8330eeeda0ec1950dc1632032\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:27:9-41
-25        android:required="true" />
-25-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\6adbb3d8330eeeda0ec1950dc1632032\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:28:9-32
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:13:5-79
+19-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:13:22-76
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\28071db6c08b6c09de051b24cdb0fc7b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\28071db6c08b6c09de051b24cdb0fc7b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\28071db6c08b6c09de051b24cdb0fc7b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:28:9-32
+24
+25    <queries>
+25-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\28071db6c08b6c09de051b24cdb0fc7b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:30:5-34:15
 26
-27    <queries>
-27-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\6adbb3d8330eeeda0ec1950dc1632032\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:30:5-34:15
-28
-29        <!-- Needs to be explicitly declared on Android R+ -->
-30        <package android:name="com.google.android.apps.maps" />
-30-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\6adbb3d8330eeeda0ec1950dc1632032\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:9-64
-30-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\6adbb3d8330eeeda0ec1950dc1632032\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:18-61
-31    </queries>
-32
-33    <application
-33-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:14:5-69:19
-34        android:allowBackup="true"
-34-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:15:9-35
-35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-35-->[androidx.core:core:1.7.0] C:\Users\himan\.gradle\caches\transforms-3\962de192d006ed4ee64f44d54d96ab17\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-36        android:debuggable="true"
-37        android:icon="@mipmap/ic_launcher"
-37-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:16:9-43
-38        android:label="@string/app_name"
-38-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:17:9-41
-39        android:requestLegacyExternalStorage="true"
-39-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:18:9-52
-40        android:roundIcon="@mipmap/ic_launcher_round"
-40-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:19:9-54
-41        android:supportsRtl="true"
-41-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:20:9-35
-42        android:testOnly="true"
-43        android:theme="@style/Theme.UOBAR" >
-43-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:21:9-43
+27        <!-- Needs to be explicitly declared on Android R+ -->
+28        <package android:name="com.google.android.apps.maps" />
+28-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\28071db6c08b6c09de051b24cdb0fc7b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:9-64
+28-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\28071db6c08b6c09de051b24cdb0fc7b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:18-61
+29    </queries>
+30
+31    <application
+31-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:15:5-70:19
+32        android:allowBackup="true"
+32-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:16:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.7.0] C:\Users\himan\.gradle\caches\transforms-3\633ff1d1f4119399c2a0f0a2db54e419\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:17:9-43
+36        android:label="@string/app_name"
+36-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:18:9-41
+37        android:requestLegacyExternalStorage="true"
+37-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:19:9-52
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:20:9-54
+39        android:supportsRtl="true"
+39-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:21:9-35
+40        android:theme="@style/Theme.AppCompat.NoActionBar" >
+40-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:22:9-59
+41
+42        <!--
+43             TODO: Before you run your application, you need a Google Maps API key.
 44
-45        <!--
-46             TODO: Before you run your application, you need a Google Maps API key.
-47
-48             To get one, follow the directions here:
-49
-50                https://developers.google.com/maps/documentation/android-sdk/get-api-key
-51
-52             Once you have your API key (it starts with "AIza"), define a new property in your
-53             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-54             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-55        -->
-56        <meta-data
-57            android:name="com.google.android.geo.API_KEY"
-57-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:35:13-58
-58            android:value="AIzaSyALn7mJzUOAypvhHCOXV8GxznKFejixPdI" />
-58-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:36:13-44
-59
-60        <activity
-60-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:38:9-41:59
-61            android:name="com.example.uobar.MapsActivity"
-61-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:39:13-41
-62            android:exported="false"
-62-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:40:13-37
-63            android:label="@string/title_activity_maps" />
-63-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:41:13-56
+45             To get one, follow the directions here:
+46
+47                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+48
+49             Once you have your API key (it starts with "AIza"), define a new property in your
+50             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+51             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+52        -->
+53        <meta-data
+54            android:name="com.google.android.geo.API_KEY"
+54-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:36:13-58
+55            android:value="AIzaSyALn7mJzUOAypvhHCOXV8GxznKFejixPdI" />
+55-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:37:13-44
+56
+57        <activity
+57-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:39:9-42:59
+58            android:name="com.example.uobar.MapsActivity"
+58-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:40:13-41
+59            android:exported="false"
+59-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:41:13-37
+60            android:label="@string/title_activity_maps" />
+60-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:42:13-56
+61        <activity
+61-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:43:9-45:40
+62            android:name="com.example.uobar.Scan_Page"
+62-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:44:13-38
+63            android:exported="false" />
+63-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:45:13-37
 64        <activity
-64-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:42:9-44:40
-65            android:name="com.example.uobar.Scan_Page"
-65-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:43:13-38
+64-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:46:9-48:40
+65            android:name="com.example.uobar.GoldneyButton"
+65-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:47:13-42
 66            android:exported="false" />
-66-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:44:13-37
+66-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:48:13-37
 67        <activity
-67-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:45:9-47:40
-68            android:name="com.example.uobar.GoldneyButton"
-68-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:46:13-42
+67-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:49:9-51:40
+68            android:name="com.example.uobar.RoyalFortButton"
+68-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:50:13-44
 69            android:exported="false" />
-69-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:47:13-37
+69-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:51:13-37
 70        <activity
-70-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:48:9-50:40
-71            android:name="com.example.uobar.RoyalFortButton"
-71-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:49:13-44
+70-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:52:9-54:40
+71            android:name="com.example.uobar.QRScanner"
+71-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:53:13-38
 72            android:exported="false" />
-72-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:50:13-37
+72-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:54:13-37
 73        <activity
-73-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:51:9-53:40
-74            android:name="com.example.uobar.QRScanner"
-74-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:52:13-38
+73-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:55:9-57:40
+74            android:name="com.example.uobar.MainActivity"
+74-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:56:13-41
 75            android:exported="false" />
-75-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:53:13-37
+75-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:57:13-37
 76        <activity
-76-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:54:9-56:40
-77            android:name="com.example.uobar.MainActivity"
-77-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:55:13-41
+76-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:58:9-60:40
+77            android:name="com.example.uobar.Audio"
+77-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:59:13-34
 78            android:exported="false" />
-78-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:56:13-37
+78-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:60:13-37
 79        <activity
-79-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:57:9-59:40
-80            android:name="com.example.uobar.Audio"
-80-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:58:13-34
-81            android:exported="false" />
-81-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:59:13-37
-82        <activity
-82-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:60:9-68:20
-83            android:name="com.example.uobar.Welcome"
-83-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:61:13-36
-84            android:exported="true" >
-84-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:62:13-36
-85            <intent-filter>
-85-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:63:13-67:29
-86                <action android:name="android.intent.action.MAIN" />
-86-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:64:17-69
-86-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:64:25-66
-87
-88                <category android:name="android.intent.category.LAUNCHER" />
-88-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:66:17-77
-88-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:66:27-74
-89            </intent-filter>
-90        </activity>
-91        <activity
-91-->[com.karumi:dexter:6.0.0] C:\Users\himan\.gradle\caches\transforms-3\a7c7566220cea0a29f3e50e81a382757\transformed\jetified-dexter-6.0.0\AndroidManifest.xml:27:9-29:72
-92            android:name="com.karumi.dexter.DexterActivity"
-92-->[com.karumi:dexter:6.0.0] C:\Users\himan\.gradle\caches\transforms-3\a7c7566220cea0a29f3e50e81a382757\transformed\jetified-dexter-6.0.0\AndroidManifest.xml:28:13-60
-93            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Needs to be explicitly declared on P+ -->
-93-->[com.karumi:dexter:6.0.0] C:\Users\himan\.gradle\caches\transforms-3\a7c7566220cea0a29f3e50e81a382757\transformed\jetified-dexter-6.0.0\AndroidManifest.xml:29:13-69
-94        <uses-library
-94-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\6adbb3d8330eeeda0ec1950dc1632032\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:39:9-41:40
-95            android:name="org.apache.http.legacy"
-95-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\6adbb3d8330eeeda0ec1950dc1632032\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:40:13-50
-96            android:required="false" />
-96-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\6adbb3d8330eeeda0ec1950dc1632032\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:41:13-37
-97
-98        <activity
-98-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\himan\.gradle\caches\transforms-3\8b07b94be87de1b43db117158c38bf7f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-99            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-99-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\himan\.gradle\caches\transforms-3\8b07b94be87de1b43db117158c38bf7f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-100            android:exported="false"
-100-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\himan\.gradle\caches\transforms-3\8b07b94be87de1b43db117158c38bf7f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-101-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\himan\.gradle\caches\transforms-3\8b07b94be87de1b43db117158c38bf7f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-102
-103        <meta-data
-103-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\891910e628316728319cbb2d790fae39\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-104            android:name="com.google.android.gms.version"
-104-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\891910e628316728319cbb2d790fae39\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-105            android:value="@integer/google_play_services_version" />
-105-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\891910e628316728319cbb2d790fae39\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-106
-107        <provider
-107-->[androidx.emoji2:emoji2:1.0.0] C:\Users\himan\.gradle\caches\transforms-3\004645f5352e6209f94d70c12271db9f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-108            android:name="androidx.startup.InitializationProvider"
-108-->[androidx.emoji2:emoji2:1.0.0] C:\Users\himan\.gradle\caches\transforms-3\004645f5352e6209f94d70c12271db9f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-109            android:authorities="com.example.uobar.androidx-startup"
-109-->[androidx.emoji2:emoji2:1.0.0] C:\Users\himan\.gradle\caches\transforms-3\004645f5352e6209f94d70c12271db9f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-110            android:exported="false" >
-110-->[androidx.emoji2:emoji2:1.0.0] C:\Users\himan\.gradle\caches\transforms-3\004645f5352e6209f94d70c12271db9f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+79-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:61:9-69:20
+80            android:name="com.example.uobar.Welcome"
+80-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:62:13-36
+81            android:exported="true" >
+81-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:63:13-36
+82            <intent-filter>
+82-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:64:13-68:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:65:17-69
+83-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:65:25-66
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+85-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:67:17-77
+85-->C:\Users\himan\Documents\coursework spe\aaaa\2021-UoBAR\QRAPP_android\app\src\main\AndroidManifest.xml:67:27-74
+86            </intent-filter>
+87        </activity>
+88        <activity
+88-->[com.karumi:dexter:6.0.0] C:\Users\himan\.gradle\caches\transforms-3\887f5b6f58d957a2d34c48f27ac9f938\transformed\jetified-dexter-6.0.0\AndroidManifest.xml:27:9-29:72
+89            android:name="com.karumi.dexter.DexterActivity"
+89-->[com.karumi:dexter:6.0.0] C:\Users\himan\.gradle\caches\transforms-3\887f5b6f58d957a2d34c48f27ac9f938\transformed\jetified-dexter-6.0.0\AndroidManifest.xml:28:13-60
+90            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Needs to be explicitly declared on P+ -->
+90-->[com.karumi:dexter:6.0.0] C:\Users\himan\.gradle\caches\transforms-3\887f5b6f58d957a2d34c48f27ac9f938\transformed\jetified-dexter-6.0.0\AndroidManifest.xml:29:13-69
+91        <uses-library
+91-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\28071db6c08b6c09de051b24cdb0fc7b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:39:9-41:40
+92            android:name="org.apache.http.legacy"
+92-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\28071db6c08b6c09de051b24cdb0fc7b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:40:13-50
+93            android:required="false" />
+93-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\28071db6c08b6c09de051b24cdb0fc7b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:41:13-37
+94
+95        <activity
+95-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\himan\.gradle\caches\transforms-3\22bad9748e5f68a76595b44ac1fd4acb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+96            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+96-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\himan\.gradle\caches\transforms-3\22bad9748e5f68a76595b44ac1fd4acb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+97            android:exported="false"
+97-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\himan\.gradle\caches\transforms-3\22bad9748e5f68a76595b44ac1fd4acb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+98-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\himan\.gradle\caches\transforms-3\22bad9748e5f68a76595b44ac1fd4acb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+99
+100        <meta-data
+100-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\05c2490dc703de1518e458d725a60f19\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+101            android:name="com.google.android.gms.version"
+101-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\05c2490dc703de1518e458d725a60f19\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+102            android:value="@integer/google_play_services_version" />
+102-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\himan\.gradle\caches\transforms-3\05c2490dc703de1518e458d725a60f19\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+103
+104        <provider
+104-->[androidx.emoji2:emoji2:1.0.0] C:\Users\himan\.gradle\caches\transforms-3\549653097c0960496eb13bd577d199e2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+105            android:name="androidx.startup.InitializationProvider"
+105-->[androidx.emoji2:emoji2:1.0.0] C:\Users\himan\.gradle\caches\transforms-3\549653097c0960496eb13bd577d199e2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+106            android:authorities="com.example.uobar.androidx-startup"
+106-->[androidx.emoji2:emoji2:1.0.0] C:\Users\himan\.gradle\caches\transforms-3\549653097c0960496eb13bd577d199e2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+107            android:exported="false" >
+107-->[androidx.emoji2:emoji2:1.0.0] C:\Users\himan\.gradle\caches\transforms-3\549653097c0960496eb13bd577d199e2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+108            <meta-data
+108-->[androidx.emoji2:emoji2:1.0.0] C:\Users\himan\.gradle\caches\transforms-3\549653097c0960496eb13bd577d199e2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+109                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+109-->[androidx.emoji2:emoji2:1.0.0] C:\Users\himan\.gradle\caches\transforms-3\549653097c0960496eb13bd577d199e2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+110                android:value="androidx.startup" />
+110-->[androidx.emoji2:emoji2:1.0.0] C:\Users\himan\.gradle\caches\transforms-3\549653097c0960496eb13bd577d199e2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
 111            <meta-data
-111-->[androidx.emoji2:emoji2:1.0.0] C:\Users\himan\.gradle\caches\transforms-3\004645f5352e6209f94d70c12271db9f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-112                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-112-->[androidx.emoji2:emoji2:1.0.0] C:\Users\himan\.gradle\caches\transforms-3\004645f5352e6209f94d70c12271db9f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+111-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\himan\.gradle\caches\transforms-3\5a65989da86b40708ad439363aa75550\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+112                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+112-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\himan\.gradle\caches\transforms-3\5a65989da86b40708ad439363aa75550\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 113                android:value="androidx.startup" />
-113-->[androidx.emoji2:emoji2:1.0.0] C:\Users\himan\.gradle\caches\transforms-3\004645f5352e6209f94d70c12271db9f\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-114            <meta-data
-114-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\himan\.gradle\caches\transforms-3\302ccddfe1a1fa914b5e897542835264\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-115                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-115-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\himan\.gradle\caches\transforms-3\302ccddfe1a1fa914b5e897542835264\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-116                android:value="androidx.startup" />
-116-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\himan\.gradle\caches\transforms-3\302ccddfe1a1fa914b5e897542835264\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-117        </provider>
-118    </application>
-119
-120</manifest>
+113-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\himan\.gradle\caches\transforms-3\5a65989da86b40708ad439363aa75550\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+114        </provider>
+115    </application>
+116
+117</manifest>

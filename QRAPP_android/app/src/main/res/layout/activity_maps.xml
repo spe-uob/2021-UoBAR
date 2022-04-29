@@ -18,8 +18,8 @@
         android:id="@+id/QRScanBtn"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="550dp"
-        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:background="@drawable/scanbtn" />
 
 </RelativeLayout>
