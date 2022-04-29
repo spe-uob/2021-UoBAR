@@ -4,7 +4,11 @@
             "outputFile": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
+<<<<<<< HEAD
+                    "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\04000f370e51023a7635e09dcc17fcb4\\transformed\\appcompat-1.4.0\\res\\values-v16\\values-v16.xml",
+=======
                     "source": "C:\\Users\\Nolan\\.gradle\\caches\\transforms-3\\fd416b80d60ce2eb1561f0347b75eb6b\\transformed\\appcompat-1.4.0\\res\\values-v16\\values-v16.xml",
+>>>>>>> 5e16da6de42c4c6ca17fb5e2816ba2dbf349ffc0
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +27,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+                    "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\633ff1d1f4119399c2a0f0a2db54e419\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
+=======
                     "source": "C:\\Users\\Nolan\\.gradle\\caches\\transforms-3\\962de192d006ed4ee64f44d54d96ab17\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
+>>>>>>> 5e16da6de42c4c6ca17fb5e2816ba2dbf349ffc0
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

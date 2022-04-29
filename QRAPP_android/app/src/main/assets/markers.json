@@ -25,8 +25,19 @@
       "imagelink": "https://katiepaterson.org/wp-content/uploads/2022/02/Katie_Paterson_Zeller_Moye_Hollow_9.jpg",
 
       "weblink": "https://katiepaterson.org/artwork/hollow/"
-    }
+    },
+    {
 
+      "latitude": 51.457756237623016,
+
+      "longitude": -2.6019238993725105,
+
+      "title": "Royal fort house",
+
+      "imagelink": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Royal_Fort_Gardens_Bristol_2016.jpg/220px-Royal_Fort_Gardens_Bristol_2016.jpg",
+
+      "weblink": "https://en.wikipedia.org/wiki/Royal_Fort_House"
+    }
   ],
 
   "gldmarkers": [

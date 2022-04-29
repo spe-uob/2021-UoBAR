@@ -1,6 +1,7 @@
 package com.example.uobar;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
@@ -9,6 +10,8 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.location.Location;
 import android.location.LocationListener;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,6 +32,8 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.gson.JsonObject;
+import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
 
 import org.json.JSONArray;
@@ -71,6 +76,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             mMap.setMyLocationEnabled(true);
+            mMap.getUiSettings().setMyLocationButtonEnabled(false);
         }
 
 
@@ -86,20 +92,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             );
             mMap.setLatLngBoundsForCameraTarget(goldeneyBounds);
 
-            try {
-                JSONObject mkrsObj = new JSONObject(loadJSONFromAsset());
-                JSONArray jsonArry = mkrsObj.getJSONArray("gldmarkers");
-                for(int i=0;i<jsonArry.length();i++){
-                    JSONObject mkrobj = jsonArry.getJSONObject(i);
-                    //create image to use on the map
-                    Bitmap bMap = addBorder(Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.defaultimg), 150, 100, false));
-
-                    //temp markers for art using bitmap
-                    mMap.addMarker(new MarkerOptions().position(new LatLng(mkrobj.getDouble("latitude"), mkrobj.getDouble("longitude"))).icon(BitmapDescriptorFactory.fromBitmap(bMap)).title(mkrobj.getString("title"))).setTag(mkrobj.getString("weblink"));
-                }
-            } catch (JSONException e) {
-                Log.e("JsonParser Example","unexpected JSON exception", e);
-            }
+            populateMarkers("gldmarkers");
 
 
         } else if (curLoc.equals("RylFort")){
@@ -111,33 +104,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             );
             mMap.setLatLngBoundsForCameraTarget(rylFortBounds);
 
-            //so this part is a temp part to showcase how to add markers and images to the markers the real one should have a json file with the following parameters:
-            //latitude, longitude, title, image name, link to the website.
-            //we will use a for loop; to then iterate for each instance of a marker and populate the parameters
-            //the json file can be located either in the res folder here or can be downloaded form a server and the image can also be done the same
-            try {
-                JSONObject mkrsObj = new JSONObject(loadJSONFromAsset());
-                JSONArray jsonArry = mkrsObj.getJSONArray("rylmarkers");
-                for(int i=0;i<jsonArry.length();i++){
-                    JSONObject mkrobj = jsonArry.getJSONObject(i);
-                    Ion.with(this).load(mkrobj.getString("imagelink")).withBitmap().asBitmap()
-                            .setCallback((e, result) -> {
-                                Bitmap bMap;
-                                if (result != null){
-                                    bMap = addBorder(Bitmap.createScaledBitmap(result, 150, 100, false));
-                                }else{
-                                    bMap = addBorder(Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.defaultimg), 150, 100, false));
-                                }
-                                try {
-                                    mMap.addMarker(new MarkerOptions().position(new LatLng(mkrobj.getDouble("latitude"), mkrobj.getDouble("longitude"))).icon(BitmapDescriptorFactory.fromBitmap(bMap)).title(mkrobj.getString("title"))).setTag(mkrobj.getString("weblink"));
-                                } catch (JSONException jsonException) {
-                                    jsonException.printStackTrace();
-                                }
-                            });
-                    }
-            } catch (JSONException e) {
-                Log.e("JsonParser Example","unexpected JSON exception", e);
-            }
+            populateMarkers("rylmarkers");
 
 
         } else{
@@ -153,9 +120,35 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse((String)marker.getTag()));
                 startActivity(intent);
-                return false;
+                return true;
             }
         });
+    }
+
+    public void populateMarkers(String location){
+        try {
+            JSONObject mkrsObj = new JSONObject(loadJSONFromAsset());
+            JSONArray jsonArry = mkrsObj.getJSONArray(location);
+            for(int i=0;i<jsonArry.length();i++){
+                JSONObject mkrobj = jsonArry.getJSONObject(i);
+                Ion.with(this).load(mkrobj.getString("imagelink")).withBitmap().asBitmap()
+                        .setCallback((e, result) -> {
+                            Bitmap bMap;
+                            if (result != null){
+                                bMap = addBorder(Bitmap.createScaledBitmap(result, 150, 100, false));
+                            }else{
+                                bMap = addBorder(Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.defaultimg), 150, 100, false));
+                            }
+                            try {
+                                mMap.addMarker(new MarkerOptions().position(new LatLng(mkrobj.getDouble("latitude"), mkrobj.getDouble("longitude"))).icon(BitmapDescriptorFactory.fromBitmap(bMap)).title(mkrobj.getString("title"))).setTag(mkrobj.getString("weblink"));
+                            } catch (JSONException jsonException) {
+                                jsonException.printStackTrace();
+                            }
+                        });
+            }
+        } catch (JSONException e) {
+            Log.e("JsonParser Example","unexpected JSON exception", e);
+        }
     }
 
     public String loadJSONFromAsset() {

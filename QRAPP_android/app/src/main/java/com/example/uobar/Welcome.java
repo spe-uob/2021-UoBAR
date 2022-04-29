@@ -28,7 +28,7 @@ public class Welcome extends AppCompatActivity {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             fusedLocationClient.getLastLocation()
                     .addOnSuccessListener(this, location -> {
-                        Toast.makeText(getApplicationContext(),"lat : " + location.getLatitude() + " long : " + location.getLongitude(), Toast.LENGTH_LONG).show();
+                        //Toast.makeText(getApplicationContext(),"lat : " + location.getLatitude() + " long : " + location.getLongitude(), Toast.LENGTH_LONG).show();
                         if((location.getLatitude() < 51.45303) && (location.getLatitude() > 51.45134) && (location.getLongitude() > -2.61340) && (location.getLongitude() < -2.61484)){
                             welcome.setOnClickListener(view -> {
                                 Intent intent = new Intent();
