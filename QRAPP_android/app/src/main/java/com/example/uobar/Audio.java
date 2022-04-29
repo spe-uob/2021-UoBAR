@@ -24,7 +24,12 @@ public class Audio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_audio);
         back_scan = findViewById(R.id.audio_back);
-        back_scan.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),QRScanner.class)));
+        back_scan.setOnClickListener(view -> {
+            this.stopPlaying();
+            Intent intent = new Intent();
+            intent.setClass(Audio.this, MapsActivity.class);
+            startActivity(intent);
+        });
         seekBar = findViewById(R.id.seekBar);
 
     }
@@ -70,10 +75,7 @@ public class Audio extends AppCompatActivity {
             player.pause();
         }
     }
-    public void stop(View v){
-        stopPlaying();
-    }
-
+    
     public void stopPlaying(){
         if(player != null){
             player.release();
