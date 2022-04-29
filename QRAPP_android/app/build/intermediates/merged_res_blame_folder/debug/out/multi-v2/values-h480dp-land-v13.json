@@ -1,14 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+            "outputFile": "C:\\Users\\himan\\Documents\\coursework spe\\aaaa\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
             "map": [
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\15c8b39810e4ffaebc56cf0736c2d1d6\\transformed\\material-1.4.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
-=======
-                    "source": "C:\\Users\\Nolan\\.gradle\\caches\\transforms-3\\8cf7fc1e75fc79c06f0083c5da308464\\transformed\\material-1.4.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
->>>>>>> 5e16da6de42c4c6ca17fb5e2816ba2dbf349ffc0
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

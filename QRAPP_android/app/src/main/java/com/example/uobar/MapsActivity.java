@@ -8,6 +8,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.Point;
 import android.location.Location;
 import android.location.LocationListener;
 import android.net.ConnectivityManager;
@@ -15,6 +16,7 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Display;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
@@ -133,11 +135,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 JSONObject mkrobj = jsonArry.getJSONObject(i);
                 Ion.with(this).load(mkrobj.getString("imagelink")).withBitmap().asBitmap()
                         .setCallback((e, result) -> {
+                            Display display = getWindowManager().getDefaultDisplay();
+                            Point size = new Point();
+                            display.getSize(size);
+                            int width = size.x;
+                            int height = size.y;
+                            //Toast.makeText(getApplicationContext(),"width : " + width + " height : " + height, Toast.LENGTH_LONG).show();
                             Bitmap bMap;
                             if (result != null){
-                                bMap = addBorder(Bitmap.createScaledBitmap(result, 150, 100, false));
+                                bMap = addBorder(Bitmap.createScaledBitmap(result, width/9, height/22, false));
                             }else{
-                                bMap = addBorder(Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.defaultimg), 150, 100, false));
+                                bMap = addBorder(Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.defaultimg), height/20, width/20, false));
                             }
                             try {
                                 mMap.addMarker(new MarkerOptions().position(new LatLng(mkrobj.getDouble("latitude"), mkrobj.getDouble("longitude"))).icon(BitmapDescriptorFactory.fromBitmap(bMap)).title(mkrobj.getString("title"))).setTag(mkrobj.getString("weblink"));

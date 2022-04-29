@@ -1,16 +1,12 @@
-<<<<<<< HEAD
-#Fri Apr 29 12:54:57 BST 2022
-=======
-#Fri Apr 29 12:47:44 BST 2022
->>>>>>> 5e16da6de42c4c6ca17fb5e2816ba2dbf349ffc0
+#Fri Apr 29 14:01:39 BST 2022
 path.3=2/classes.dex
 path.2=15/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.3=D\:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.2=D\:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.1=D\:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=D\:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.3=C\:\\Users\\himan\\Documents\\coursework spe\\aaaa\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.2=C\:\\Users\\himan\\Documents\\coursework spe\\aaaa\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.1=C\:\\Users\\himan\\Documents\\coursework spe\\aaaa\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\himan\\Documents\\coursework spe\\aaaa\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
