@@ -1,14 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "C:\\Users\\himan\\Documents\\coursework spe\\aaaa\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\04000f370e51023a7635e09dcc17fcb4\\transformed\\appcompat-1.4.0\\res\\values-watch-v20\\values-watch-v20.xml",
-=======
-                    "source": "C:\\Users\\Nolan\\.gradle\\caches\\transforms-3\\fd416b80d60ce2eb1561f0347b75eb6b\\transformed\\appcompat-1.4.0\\res\\values-watch-v20\\values-watch-v20.xml",
->>>>>>> 5e16da6de42c4c6ca17fb5e2816ba2dbf349ffc0
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

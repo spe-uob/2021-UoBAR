@@ -1,14 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be\\values-be.xml",
+            "outputFile": "C:\\Users\\himan\\Documents\\coursework spe\\aaaa\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be\\values-be.xml",
             "map": [
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\15c8b39810e4ffaebc56cf0736c2d1d6\\transformed\\material-1.4.0\\res\\values-be\\values-be.xml",
-=======
-                    "source": "C:\\Users\\Nolan\\.gradle\\caches\\transforms-3\\8cf7fc1e75fc79c06f0083c5da308464\\transformed\\material-1.4.0\\res\\values-be\\values-be.xml",
->>>>>>> 5e16da6de42c4c6ca17fb5e2816ba2dbf349ffc0
                     "from": {
                         "startLines": "2,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -27,11 +23,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\04000f370e51023a7635e09dcc17fcb4\\transformed\\appcompat-1.4.0\\res\\values-be\\values-be.xml",
-=======
-                    "source": "C:\\Users\\Nolan\\.gradle\\caches\\transforms-3\\fd416b80d60ce2eb1561f0347b75eb6b\\transformed\\appcompat-1.4.0\\res\\values-be\\values-be.xml",
->>>>>>> 5e16da6de42c4c6ca17fb5e2816ba2dbf349ffc0
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -48,11 +40,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\633ff1d1f4119399c2a0f0a2db54e419\\transformed\\core-1.7.0\\res\\values-be\\values-be.xml",
-=======
-                    "source": "C:\\Users\\Nolan\\.gradle\\caches\\transforms-3\\962de192d006ed4ee64f44d54d96ab17\\transformed\\core-1.7.0\\res\\values-be\\values-be.xml",
->>>>>>> 5e16da6de42c4c6ca17fb5e2816ba2dbf349ffc0
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -69,7 +57,6 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\22bad9748e5f68a76595b44ac1fd4acb\\transformed\\jetified-play-services-base-18.0.1\\res\\values-be\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -88,9 +75,6 @@
                 },
                 {
                     "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\05c2490dc703de1518e458d725a60f19\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-be\\values.xml",
-=======
-                    "source": "C:\\Users\\Nolan\\.gradle\\caches\\transforms-3\\891910e628316728319cbb2d790fae39\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-be\\values.xml",
->>>>>>> 5e16da6de42c4c6ca17fb5e2816ba2dbf349ffc0
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -105,26 +89,6 @@
                         "endColumns": "145",
                         "endOffsets": "4640"
                     }
-<<<<<<< HEAD
-=======
-                },
-                {
-                    "source": "C:\\Users\\Nolan\\.gradle\\caches\\transforms-3\\8b07b94be87de1b43db117158c38bf7f\\transformed\\jetified-play-services-base-18.0.1\\res\\values-be\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,296,454,575,681,832,954,1065,1165,1323,1426,1585,1709,1858,2013,2078,2136",
-                        "endColumns": "102,157,120,105,150,121,110,99,157,102,158,123,148,154,64,57,74",
-                        "endOffsets": "295,453,574,680,831,953,1064,1164,1322,1425,1584,1708,1857,2012,2077,2135,2210"
-                    },
-                    "to": {
-                        "startLines": "39,40,41,42,43,44,45,46,48,49,50,51,52,53,54,55,56",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3495,3602,3764,3889,3999,4154,4280,4395,4645,4807,4914,5077,5205,5358,5517,5586,5648",
-                        "endColumns": "106,161,124,109,154,125,114,103,161,106,162,127,152,158,68,61,78",
-                        "endOffsets": "3597,3759,3884,3994,4149,4275,4390,4494,4802,4909,5072,5200,5353,5512,5581,5643,5722"
-                    }
->>>>>>> 5e16da6de42c4c6ca17fb5e2816ba2dbf349ffc0
                 }
             ]
         }
