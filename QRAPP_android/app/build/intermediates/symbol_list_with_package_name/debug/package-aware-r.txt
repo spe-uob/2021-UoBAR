@@ -1928,6 +1928,7 @@ drawable option_bg
 drawable pink_bg
 drawable royal_intro
 drawable royalfort
+drawable scan
 drawable scanbtn
 drawable test_custom_background
 drawable test_level_drawable
