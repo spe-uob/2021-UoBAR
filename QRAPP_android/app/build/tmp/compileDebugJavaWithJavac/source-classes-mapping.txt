@@ -8,11 +8,12 @@ com/example/uobar/GoldneyButton.java
  com.example.uobar.GoldneyButton$2
 com/example/uobar/MainActivity.java
  com.example.uobar.MainActivity
-com/example/uobar/databinding/ActivityMapsBinding.java
- com.example.uobar.databinding.ActivityMapsBinding
-com/example/uobar/MapsActivity.java
- com.example.uobar.MapsActivity
- com.example.uobar.MapsActivity$1
+com/example/uobar/Audio.java
+ com.example.uobar.Audio
+ com.example.uobar.Audio$1
+ com.example.uobar.Audio$2
+com/example/uobar/BuildConfig.java
+ com.example.uobar.BuildConfig
 com/example/uobar/databinding/ActivityScanPageBinding.java
  com.example.uobar.databinding.ActivityScanPageBinding
 com/example/uobar/Scan_Page.java
@@ -32,9 +33,8 @@ com/example/uobar/QRScanner.java
  com.example.uobar.QRScanner$1
 com/example/uobar/databinding/ActivityWelcomeBinding.java
  com.example.uobar.databinding.ActivityWelcomeBinding
-com/example/uobar/BuildConfig.java
- com.example.uobar.BuildConfig
-com/example/uobar/Audio.java
- com.example.uobar.Audio
- com.example.uobar.Audio$1
- com.example.uobar.Audio$2
+com/example/uobar/databinding/ActivityMapsBinding.java
+ com.example.uobar.databinding.ActivityMapsBinding
+com/example/uobar/MapsActivity.java
+ com.example.uobar.MapsActivity
+ com.example.uobar.MapsActivity$1
