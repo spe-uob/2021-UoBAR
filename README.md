@@ -47,7 +47,26 @@ As a developer I want to develop the app as feature rich as possible, and in a s
 
 As a client, I want the app to be delivered on time and to be bug free so that it can be released to the public.
 
-## Setup instruction
+ ## APP structure
+ 
+ <img src=structure.png>
+ 
+ The user is given the option to choose whether they will allow the app to access their current location. If they choose to share it, then the map of the garden they are currently in is opened. If they opt not to share their location, however, the app will give them the option to manually select the garden they are currently in: 
+ 
+ 
+ <img src = screenshots/Main.jpg width="250" height="500">
+ 
+ Once the garden is selected, the map is openend, and the user's location along with the markers for each art piece is displayed. If the user presses any marker, then the link to the corresponding web page is openend in their default browser.
+ 
+ 
+ <img src = screenshots/Maps.jpg width="250" height="500">
+
+For people with visual impairment, or people who do not want to open the web page, we have implemented an audio version, which can be opened by scanning the QR code for the audio file. The user can scroll to any point in the audio file, should they feel the need to do it.
+
+ <img src = screenshots/Audio.jpg width="250" height="500">
+ 
+ 
+## Setup instruction - Android
 - We recommend use Android studio to run this project which support debug and run on the real machine and also provides a device simulator  
 
 - Install Prerequisites  
@@ -77,7 +96,7 @@ As a client, I want the app to be delivered on time and to be bug free so that i
 
 
 
-## Deployment Instructions 
+## Deployment Instructions - Android
 
 For deploying the app on Google's Play Store, please visit [this link](https://orangesoft.co/blog/how-to-publish-an-android-app-on-google-play-store).
 
