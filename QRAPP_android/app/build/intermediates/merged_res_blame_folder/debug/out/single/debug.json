@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_audio.xml.flat",
-        "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\layout\\activity_audio.xml"
-    },
-    {
         "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_audio.xml.flat",
+        "source": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\src\\main\\res\\layout\\activity_audio.xml"
     },
     {
         "merged": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\merged_res\\debug\\drawable_defaultimg.jpg.flat",

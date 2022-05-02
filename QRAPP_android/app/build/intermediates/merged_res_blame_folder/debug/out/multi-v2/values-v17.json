@@ -4,11 +4,7 @@
             "outputFile": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\04000f370e51023a7635e09dcc17fcb4\\transformed\\appcompat-1.4.0\\res\\values-v17\\values-v17.xml",
-=======
-                    "source": "C:\\Users\\Nolan\\.gradle\\caches\\transforms-3\\fd416b80d60ce2eb1561f0347b75eb6b\\transformed\\appcompat-1.4.0\\res\\values-v17\\values-v17.xml",
->>>>>>> 5e16da6de42c4c6ca17fb5e2816ba2dbf349ffc0
+                    "source": "C:\\Users\\Nolan\\.gradle\\caches\\transforms-3\\adfbcff232942f8df7c15c2eff6aef27\\transformed\\appcompat-1.4.0\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -4,11 +4,17 @@
             "outputFile": "D:\\UoBAR\\2021-UoBAR\\QRAPP_android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\15c8b39810e4ffaebc56cf0736c2d1d6\\transformed\\material-1.4.0\\res\\values-large-v4\\values-large-v4.xml",
-=======
-                    "source": "C:\\Users\\Nolan\\.gradle\\caches\\transforms-3\\8cf7fc1e75fc79c06f0083c5da308464\\transformed\\material-1.4.0\\res\\values-large-v4\\values-large-v4.xml",
->>>>>>> 5e16da6de42c4c6ca17fb5e2816ba2dbf349ffc0
+                    "source": "C:\\Users\\Nolan\\.gradle\\caches\\transforms-3\\adfbcff232942f8df7c15c2eff6aef27\\transformed\\appcompat-1.4.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Nolan\\.gradle\\caches\\transforms-3\\b1b1e3e2c4a2035f13a28919c892bd3f\\transformed\\material-1.4.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -22,20 +28,6 @@
                         "startOffsets": "752,874",
                         "endColumns": "121,133",
                         "endOffsets": "869,1003"
-                    }
-                },
-                {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\himan\\.gradle\\caches\\transforms-3\\04000f370e51023a7635e09dcc17fcb4\\transformed\\appcompat-1.4.0\\res\\values-large-v4\\values-large-v4.xml",
-=======
-                    "source": "C:\\Users\\Nolan\\.gradle\\caches\\transforms-3\\fd416b80d60ce2eb1561f0347b75eb6b\\transformed\\appcompat-1.4.0\\res\\values-large-v4\\values-large-v4.xml",
->>>>>>> 5e16da6de42c4c6ca17fb5e2816ba2dbf349ffc0
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,532,636",
-                        "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,631,747"
                     }
                 }
             ]
