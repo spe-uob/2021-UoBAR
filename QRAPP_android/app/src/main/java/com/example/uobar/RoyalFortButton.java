@@ -30,7 +30,7 @@ public class RoyalFortButton extends AppCompatActivity {
         royalBttn =findViewById(R.id.GoldneyID);
 
 
-        royalInfo.setText("The text which contains information about the Royal garden");
+        royalInfo.setText("Following a failed attempt to develop the gardens for housing, at the end of the eighteenth century, renowned landscape architect Humphry Repton was commissioned to reinstate a garden in the 'English Landscape' fashion. Repton produced a design which filled in the unsightly excavations; created an undulating lawn and screened the undesirable - or framed the desirable – views. A high wall surrounds and retains the garden. This would have acted as a 'ha-ha' to gain what, at the time, would have been unspoiled vistas.");
 
         next_scan = findViewById(R.id.Next_scan);
         next_scan.setOnClickListener(view -> {
