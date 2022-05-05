@@ -49,7 +49,7 @@ As a client, I want the app to be delivered on time and to be bug free so that i
 
  ## APP structure
  
- <img src=structure.png>
+ <img src=structure.jpeg>
  
  The user is given the option to choose whether they will allow the app to access their current location. If they choose to share it, then the map of the garden they are currently in is opened. If they opt not to share their location, however, the app will give them the option to manually select the garden they are currently in: 
  
