@@ -34,7 +34,7 @@ public class GoldneyButton extends AppCompatActivity {
        audio = findViewById(R.id.audio);
 
 
-       goldneyInfo.setText("The text which contains information about the Goldney garden");
+       goldneyInfo.setText("The historic English Landscape Garden style grounds, designed by Thomas Goldney III, include an orangery, gothic tower and grotto.[10] The Goldney Hall gardens encompass a 10-acre (4.0 ha) site and are known for their notable five follies:\nOrnamental Canal \nGothic Tower \nRotunda Mock \nBastion \nShell-lined Grotto");
 
        next_scan = findViewById(R.id.Next_scan);
        next_scan.setOnClickListener(view -> {

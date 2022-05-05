@@ -14,6 +14,7 @@ import android.location.LocationListener;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Display;
@@ -34,6 +35,8 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
@@ -42,8 +45,13 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, LocationListener {
 
@@ -93,8 +101,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     new LatLng(51.45303, -2.61340)  // NE bounds
             );
             mMap.setLatLngBoundsForCameraTarget(goldeneyBounds);
-
-            populateMarkers("gldmarkers");
+            new JsonTask().execute("https://api.jsonbin.io/b/6272657d019db4679695bacb");
 
 
         } else if (curLoc.equals("RylFort")){
@@ -105,8 +112,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     new LatLng(51.45930, -2.60089)
             );
             mMap.setLatLngBoundsForCameraTarget(rylFortBounds);
-
-            populateMarkers("rylmarkers");
+            new JsonTask().execute("https://api.jsonbin.io/b/6272657d019db4679695bacb");
 
 
         } else{
@@ -127,9 +133,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         });
     }
 
-    public void populateMarkers(String location){
+    public void populateMarkers(String location, JSONObject mkrsObj){
+
+        //https://api.jsonbin.io/b/6272657d019db4679695bacb
+        Toast.makeText(getApplicationContext(),mkrsObj.toString(), Toast.LENGTH_LONG).show();
         try {
-            JSONObject mkrsObj = new JSONObject(loadJSONFromAsset());
             JSONArray jsonArry = mkrsObj.getJSONArray(location);
             for(int i=0;i<jsonArry.length();i++){
                 JSONObject mkrobj = jsonArry.getJSONObject(i);
@@ -159,6 +167,62 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
     }
 
+    private class JsonTask extends AsyncTask<String, String, String> {
+
+        @Override
+        protected String doInBackground(String... params) {
+            HttpURLConnection connection = null;
+            BufferedReader reader = null;
+
+            try {
+                URL url = new URL(params[0]);
+                connection = (HttpURLConnection) url.openConnection();
+                connection.connect();
+
+
+                InputStream stream = connection.getInputStream();
+
+                reader = new BufferedReader(new InputStreamReader(stream));
+
+                StringBuffer buffer = new StringBuffer();
+                String line = "";
+                JSONObject mkrsObj = new JSONObject(loadJSONFromAsset());
+                while ((line = reader.readLine()) != null) {
+                    buffer.append(line+"\n");
+                    if (line.contains("rylmarkers")){
+                        mkrsObj = new JSONObject(line);
+                    }
+                }
+
+                if (curLoc.equals("Goldeney")){
+                    populateMarkers("gldmarkers", mkrsObj);
+                }else if (curLoc.equals("RylFort")){
+                    populateMarkers("rylmarkers", mkrsObj);
+                }else{
+                    Toast.makeText(getApplicationContext(),"location error", Toast.LENGTH_LONG).show();
+                }
+
+                return buffer.toString();
+
+
+            } catch (JSONException | IOException e) {
+                e.printStackTrace();
+            } finally {
+                if (connection != null) {
+                    connection.disconnect();
+                }
+                try {
+                    if (reader != null) {
+                        reader.close();
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            return null;
+        }
+    }
+
     public String loadJSONFromAsset() {
         String json = null;
         try {
@@ -176,7 +240,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     private Bitmap addBorder(Bitmap bMap) {
-        int padding = 10;
+        int padding = 5;
         Bitmap bMapBorder = Bitmap.createBitmap(bMap.getWidth() + padding * 2, bMap.getHeight() + padding * 2, bMap.getConfig());
         Canvas canvas = new Canvas(bMapBorder);
         canvas.drawColor(Color.WHITE);
