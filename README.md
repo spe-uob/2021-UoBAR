@@ -110,3 +110,41 @@ This is a step by step on how to get the APK file which can then be installed on
 The APK is now ready. It can be installed on any android phone. 
 
 The easiest way to get it on your android smartphone is by connecting the phone to the computer, via an USB cable. When prompted with what you want to do with this device, select the option which allows you to see the files of the phone. Next, open the Files folder from your phone on your computer, and copy the app-debug there. Once you have done that, the APK should be on your phone. Click on the APK, and follow the on-screen instructions. The app should now be installed on your phone.
+
+
+
+
+## Setup instruction - IOS
+·For ios version ，we recommend use Xcode to this project which support debug and simulate on the real machine
+
+·Install Prerequisite
+
+i.Xcode （Which need macOS v12 or higher version）
+
+ii.App account
+
+·Set up
+
+i.Clone the repository: git clone https://github.com/spe-uob/2021-UoBAR.git
+ii.Open the Xcode main screen.Click on “Open a project or file”
+iii.Choose OR APP_IOS（ov）》QR APP
+iv.In the main page ，select “Signing&Capabilities”，and choose “Add Account” in Status part，also select your account for “Team”（if don't have a developer account ，directly use personal account will be fine）
+v.Click “Build”
+
+## Deployment Instructions - IOS
+
+After building ，you can connect your iPone with your computer，this will be the fastest way to get ios version in your ipone.
+
+ 1. On the top of QRCodeDemo main page，choose your iPone as simulator.（You will see QRCodeDemo〉your iPone）
+ 2. Build
+ 3. The you will get UOB GARDENS in you ipone.
+
+（But there's might be a window pop up that notice you “Your device management settings do not allow using apps from developer on this iPhone” because it‘s an untrusted developer ）
+Then
+ 4. Go to your iPone‘s Settings
+
+ 5. Click General ＞ VPN & Device Mangement 
+
+ 6. You will find a developer app under your account ，click on it ，and select trust APP.
+
+ 7. Then the app should be run successfully！
