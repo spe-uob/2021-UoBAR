@@ -119,21 +119,21 @@ The easiest way to get it on your android smartphone is by connecting the phone 
 
 - Install Prerequisite
 
-i.Xcode （Which need macOS v12 or higher version）
+  i.Xcode （Which need macOS v12 or higher version）
 
-ii.App account
+  ii.App account
 
 - Set up
 
-i.Clone the repository: git clone https://github.com/spe-uob/2021-UoBAR.git
+  i.Clone the repository: git clone https://github.com/spe-uob/2021-UoBAR.git
 
-ii.Open the Xcode main screen.Click on “Open a project or file”
+  ii.Open the Xcode main screen.Click on “Open a project or file”
 
-iii.Choose OR APP_IOS（ov）》QR APP
+  iii.Choose OR APP_IOS（ov）》QR APP
 
-iv.In the main page ，select “Signing&Capabilities”，and choose “Add Account” in Status part，also select your account for “Team”（if don't have a developer account ，directly use personal account will be fine）
+  iv.In the main page ，select “Signing&Capabilities”，and choose “Add Account” in Status part，also select your account for “Team”（if don't have a developer account   ，directly use personal account will be fine）
 
-v.Click “Build”
+  v.Click “Build”
 
 ## Deployment Instructions - IOS
 
