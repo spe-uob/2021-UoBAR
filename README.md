@@ -126,9 +126,13 @@ ii.App account
 ·Set up
 
 i.Clone the repository: git clone https://github.com/spe-uob/2021-UoBAR.git
+
 ii.Open the Xcode main screen.Click on “Open a project or file”
+
 iii.Choose OR APP_IOS（ov）》QR APP
+
 iv.In the main page ，select “Signing&Capabilities”，and choose “Add Account” in Status part，also select your account for “Team”（if don't have a developer account ，directly use personal account will be fine）
+
 v.Click “Build”
 
 ## Deployment Instructions - IOS
