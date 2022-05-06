@@ -115,15 +115,15 @@ The easiest way to get it on your android smartphone is by connecting the phone 
 
 
 ## Setup instruction - IOS
-·For ios version ，we recommend use Xcode to this project which support debug and simulate on the real machine
+- For ios version ，we recommend use Xcode to this project which support debug and simulate on the real machine
 
-·Install Prerequisite
+- Install Prerequisite
 
 i.Xcode （Which need macOS v12 or higher version）
 
 ii.App account
 
-·Set up
+- Set up
 
 i.Clone the repository: git clone https://github.com/spe-uob/2021-UoBAR.git
 
@@ -137,7 +137,7 @@ v.Click “Build”
 
 ## Deployment Instructions - IOS
 
-After building ，you can connect your iPone with your computer，this will be the fastest way to get ios version in your ipone.
+- After building ，you can connect your iPone with your computer，this will be the fastest way to get ios version in your ipone.
 
  1. On the top of QRCodeDemo main page，choose your iPone as simulator.（You will see QRCodeDemo〉your iPone）
  2. Build
